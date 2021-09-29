@@ -1,4 +1,20 @@
 {
+  "AC26231720": {
+    "contest_id": "abc045",
+    "language": "C (GCC 9.2.1)",
+    "path": "atcoder\\abc045\\A.c",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Trapezoids",
+    "problem_url": "https://atcoder.jp/contests/abc045/tasks/abc045_a",
+    "submission_id": "AC26231720",
+    "submission_url": "https://atcoder.jp/contests/abc045/submissions/26231720",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Sep/30/2021 03:12"
+  },
   "AC26237059": {
     "contest_id": "abc046",
     "language": "C (GCC 9.2.1)",
