@@ -1,4 +1,20 @@
 {
+  "AC26240670": {
+    "contest_id": "abc055",
+    "language": "C (GCC 9.2.1)",
+    "path": "atcoder\\abc055\\A.c",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Restaurant",
+    "problem_url": "https://atcoder.jp/contests/abc055/tasks/abc055_a",
+    "submission_id": "AC26240670",
+    "submission_url": "https://atcoder.jp/contests/abc055/submissions/26240670",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Sep/30/2021 17:47"
+  },
   "AC26249066": {
     "contest_id": "abc056",
     "language": "C (GCC 9.2.1)",
