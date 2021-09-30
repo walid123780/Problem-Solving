@@ -1,4 +1,20 @@
 {
+  "AC26237850": {
+    "contest_id": "abc048",
+    "language": "C (GCC 9.2.1)",
+    "path": "atcoder\\abc048\\A.c",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "AtCoder *** Contest",
+    "problem_url": "https://atcoder.jp/contests/abc048/tasks/abc048_a",
+    "submission_id": "AC26237850",
+    "submission_url": "https://atcoder.jp/contests/abc048/submissions/26237850",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Sep/30/2021 13:58"
+  },
   "AC26237924": {
     "contest_id": "abc049",
     "language": "C (GCC 9.2.1)",
