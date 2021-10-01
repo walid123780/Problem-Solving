@@ -1,4 +1,20 @@
 {
+  "AC26249172": {
+    "contest_id": "abc057",
+    "language": "C (GCC 9.2.1)",
+    "path": "atcoder\\abc057\\A.c",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Remaining Time",
+    "problem_url": "https://atcoder.jp/contests/abc057/tasks/abc057_a",
+    "submission_id": "AC26249172",
+    "submission_url": "https://atcoder.jp/contests/abc057/submissions/26249172",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Oct/01/2021 10:36"
+  },
   "AC26249272": {
     "contest_id": "abc058",
     "language": "C (GCC 9.2.1)",
