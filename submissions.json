@@ -1,4 +1,20 @@
 {
+  "AC26265915": {
+    "contest_id": "abc064",
+    "language": "C (GCC 9.2.1)",
+    "path": "atcoder\\abc064\\A.c",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "RGB Cards",
+    "problem_url": "https://atcoder.jp/contests/abc064/tasks/abc064_a",
+    "submission_id": "AC26265915",
+    "submission_url": "https://atcoder.jp/contests/abc064/submissions/26265915",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Oct/02/2021 12:47"
+  },
   "AC26266016": {
     "contest_id": "abc063",
     "language": "C (GCC 9.2.1)",
