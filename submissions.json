@@ -1,4 +1,20 @@
 {
+  "AC26333312": {
+    "contest_id": "abc069",
+    "language": "C (GCC 9.2.1)",
+    "path": "atcoder\\abc069\\A.c",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "K-City",
+    "problem_url": "https://atcoder.jp/contests/abc069/tasks/abc069_a",
+    "submission_id": "AC26333312",
+    "submission_url": "https://atcoder.jp/contests/abc069/submissions/26333312",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Oct/03/2021 13:02"
+  },
   "AC26333648": {
     "contest_id": "abc070",
     "language": "C (GCC 9.2.1)",
