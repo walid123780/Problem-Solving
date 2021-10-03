@@ -1,4 +1,20 @@
 {
+  "AC26333648": {
+    "contest_id": "abc070",
+    "language": "C (GCC 9.2.1)",
+    "path": "atcoder\\abc070\\A.c",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Palindromic Number",
+    "problem_url": "https://atcoder.jp/contests/abc070/tasks/abc070_a",
+    "submission_id": "AC26333648",
+    "submission_url": "https://atcoder.jp/contests/abc070/submissions/26333648",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Oct/03/2021 13:17"
+  },
   "AC26335376": {
     "contest_id": "abc071",
     "language": "C (GCC 9.2.1)",
