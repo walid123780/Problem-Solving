@@ -1,4 +1,20 @@
 {
+  "AC26709395": {
+    "contest_id": "abc188",
+    "language": "C (GCC 9.2.1)",
+    "path": "atcoder\\abc188\\A.c",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Three-Point Shot",
+    "problem_url": "https://atcoder.jp/contests/abc188/tasks/abc188_a",
+    "submission_id": "AC26709395",
+    "submission_url": "https://atcoder.jp/contests/abc188/submissions/26709395",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Oct/21/2021 00:52"
+  },
   "AC26910144": {
     "contest_id": "abc225",
     "language": "C (GCC 9.2.1)",
