@@ -27,20 +27,10 @@ int main()
                 break;
             }
         }
-        if(is_sorted(arr,arr+n+1))
+        reverse(arr + found, arr + rev + 1);
+        for(int i=1; i<=n; i++)
         {
-            for(int i=1; i<=n; i++)
-            {
-                cout<<arr[i]<< " ";
-            }
-        }
-        else
-        {
-            reverse(arr + found, arr + rev + 1);
-            for(int i=1; i<=n; i++)
-            {
-                cout<<arr[i]<< " ";
-            }
+           cout<<arr[i]<< " ";
         }
         cout<<endl;
     }
