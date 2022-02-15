@@ -27,7 +27,7 @@ int main()
                 break;
             }
         }
-        if(found==0)
+        if(is_sorted(arr,arr+n+1))
         {
             for(int i=1; i<=n; i++)
             {
