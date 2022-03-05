@@ -1,4 +1,20 @@
 {
+  "AC29888365": {
+    "contest_id": "abc242",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc242\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "T-shirt",
+    "problem_url": "https://atcoder.jp/contests/abc242/tasks/abc242_a",
+    "submission_id": "AC29888365",
+    "submission_url": "https://atcoder.jp/contests/abc242/submissions/29888365",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Mar/05/2022 18:44"
+  },
   "AC32964211": {
     "contest_id": "dp",
     "language": "C++ (GCC 9.2.1)",
