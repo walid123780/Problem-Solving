@@ -1,4 +1,20 @@
 {
+  "AC29872260": {
+    "contest_id": "abc242",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc242\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Minimize Ordering",
+    "problem_url": "https://atcoder.jp/contests/abc242/tasks/abc242_b",
+    "submission_id": "AC29872260",
+    "submission_url": "https://atcoder.jp/contests/abc242/submissions/29872260",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Mar/05/2022 18:08"
+  },
   "AC29888365": {
     "contest_id": "abc242",
     "language": "C++ (GCC 9.2.1)",
