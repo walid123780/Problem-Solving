@@ -1,4 +1,23 @@
 {
+  "CF149755051": {
+    "contest_id": 1609,
+    "language": "GNU C++17",
+    "path": "codeforces\\1609\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Divide and Multiply",
+    "problem_url": "https://codeforces.com/contest/1609/problem/A",
+    "submission_id": "CF149755051",
+    "submission_url": "https://codeforces.com/contest/1609/submission/149755051",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Mar/16/2022 01:24"
+  },
   "CF149955388": {
     "contest_id": 4,
     "language": "GNU C++17",
