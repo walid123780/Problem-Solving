@@ -1,4 +1,21 @@
 {
+  "CF152956532": {
+    "contest_id": 1610,
+    "language": "GNU C++17",
+    "path": "codeforces\\1610\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Kalindrome Array",
+    "problem_url": "https://codeforces.com/contest/1610/problem/B",
+    "submission_id": "CF152956532",
+    "submission_url": "https://codeforces.com/contest/1610/submission/152956532",
+    "tags": [
+      "greedy",
+      "two pointers",
+      "*1100"
+    ],
+    "timestamp": "Apr/08/2022 01:01"
+  },
   "CF152984498": {
     "contest_id": 1654,
     "language": "GNU C++17",
