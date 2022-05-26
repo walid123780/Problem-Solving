@@ -1,4 +1,23 @@
 {
+  "CF158546321": {
+    "contest_id": 1684,
+    "language": "GNU C++17",
+    "path": "codeforces\\1684\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Digit Minimization",
+    "problem_url": "https://codeforces.com/contest/1684/problem/A",
+    "submission_id": "CF158546321",
+    "submission_url": "https://codeforces.com/contest/1684/submission/158546321",
+    "tags": [
+      "constructive algorithms",
+      "games",
+      "math",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "May/26/2022 21:57"
+  },
   "CF158552010": {
     "contest_id": 1684,
     "language": "GNU C++17",
