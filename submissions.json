@@ -1,4 +1,21 @@
 {
+  "CF160057771": {
+    "contest_id": 1679,
+    "language": "GNU C++17",
+    "path": "codeforces\\1679\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Stone Age Problem",
+    "problem_url": "https://codeforces.com/contest/1679/problem/B",
+    "submission_id": "CF160057771",
+    "submission_url": "https://codeforces.com/contest/1679/submission/160057771",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jun/10/2022 14:38"
+  },
   "CF161223720": {
     "contest_id": 1694,
     "language": "GNU C++17",
