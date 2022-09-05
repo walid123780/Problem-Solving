@@ -40,14 +40,45 @@
 using namespace std;
 int grid[16][16];
 
+void nice()
+{
+    int i, j, k, l, m, n;
+    for( i = 0 ; i < 8 ; i++)
+    {
+        for( j = i + 1; j <= 15 - i ; j++)
+        {
+            if(i % 2 == 0) grid[i][j] = 1;
+            else if( i % 2 != 0) grid[i][j] = 0;
+
+        }
+        for( k = i; k <= 15 - i ; k++)
+        {
+            if(i % 2 == 0) grid[k][j] = 1;
+            else if( i % 2 != 0) grid[k][j] = 0;
+        }
+        for( l = k ; l >= i + 1 ; l--)
+        {
+            if(i % 2 == 0) grid[k][l] = 1;
+            else if( i % 2 != 0) grid[k][l] = 0;
+
+        }
+        for( m = k; m >= i ; m--)
+        {
+            if(i % 2 == 0) grid[m][l] = 1;
+            else if( i % 2 != 0) grid[m][l] = 0;
+        }
+    }
+    grid[8][8] = 1;
+}
 
 
 int main()
 {
-
+    nice();
+//    display();
     int n, m;
     cin>>n>>m;
-    if(max(abs(n-8),abs(m-8)) % 2 == 0) cout<<"white\n";
+    if(grid[n][m] == 1) cout<<"white\n";
     else cout<<"black\n";
     return 0;
 }
