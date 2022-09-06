@@ -1,4 +1,20 @@
 {
+  "AC34657596": {
+    "contest_id": "abc262",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc262\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "World Cup",
+    "problem_url": "https://atcoder.jp/contests/abc262/tasks/abc262_a",
+    "submission_id": "AC34657596",
+    "submission_url": "https://atcoder.jp/contests/abc262/submissions/34657596",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Sep/06/2022 19:04"
+  },
   "AC34658487": {
     "contest_id": "abc262",
     "language": "C++ (GCC 9.2.1)",
