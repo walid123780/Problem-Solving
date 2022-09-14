@@ -13,11 +13,14 @@ using namespace std;
 int main()
 {
     fast;
-    ll k, w , n;
+    int k, w , n;
     ll ans = 0;
     cin>>k>>w>>n;
-    ll res =  max(0LL , n * (n+1) / 2 * k - w);
-    cout<<res<<endl;
-
+    for(int i = 1; i <= n ; i++){
+        ans += (k * i);
+    }
+    if(ans > w) cout<<ans - w;
+    else cout<<"0";
+    cout<<endl;
     return 0;
 }
