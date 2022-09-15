@@ -21,24 +21,21 @@ int main()
     {
         int n,ans = INT_MAX, pos = -1;
         cin>>n;
-        map<int,vector<int>>mp;
-
+        map<int,int>mp;
+        set<int>s;
         for(int i = 1; i <= n; i++)
         {
             int x;
             cin>>x;
-            mp[x].pb(i);
-        }
-        for(auto v : mp)
-        {
-            if(v.second.size() ==  1){
-                cout<< v.second[0]<<endl;
-                pos = 1;
-                break;
+            if(s.find(x) == s.end())
+            {
+                s.insert(x);
+                mp[x] = i;
             }
+            else mp.erase(x);
         }
-        if(pos != 1) cout<<pos<<endl;
-
+        if(mp.empty()) cout<<pos<<endl;
+        else cout<<mp.begin()->second<<endl;
     }
     return 0;
 }
