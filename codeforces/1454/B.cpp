@@ -19,30 +19,26 @@ int main()
     cin>>t;
     while(t--)
     {
-        int n,ans = INT_MAX , pos =-1;
+        int n,ans = INT_MAX, pos = -1;
         cin>>n;
-        map<int ,int>mp;
-        int arr[n+1];
+        map<int,vector<int>>mp;
 
-        rep1(i,n)
+        for(int i = 1; i <= n; i++)
         {
             int x;
             cin>>x;
-            arr[i] = x;
-            mp[x]++;
+            mp[x].pb(i);
         }
-        rep1(i,n)
+        for(auto v : mp)
         {
-            if(mp[arr[i]] == 1){
-                if(ans > arr[i]){
-                    ans = arr[i];
-                    pos = i;
-                }
+            if(v.second.size() ==  1){
+                cout<< v.second[0]<<endl;
+                pos = 1;
+                break;
             }
         }
-        cout<<pos<<endl;
+        if(pos != 1) cout<<pos<<endl;
+
     }
-
-
     return 0;
 }
