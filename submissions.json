@@ -1,4 +1,21 @@
 {
+  "CF172557030": {
+    "contest_id": 48,
+    "language": "GNU C++17",
+    "path": "codeforces\\48\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rock-paper-scissors",
+    "problem_url": "https://codeforces.com/contest/48/problem/A",
+    "submission_id": "CF172557030",
+    "submission_url": "https://codeforces.com/contest/48/submission/172557030",
+    "tags": [
+      "implementation",
+      "schedules",
+      "*900"
+    ],
+    "timestamp": "Sep/18/2022 18:13"
+  },
   "CF172567587": {
     "contest_id": 10,
     "language": "GNU C++17",
