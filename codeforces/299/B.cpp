@@ -15,18 +15,34 @@ int main()
     fast;
 //    optimize();
     int n,k, red = 0;
-    int cnt = 0;
+    int key = 0;
     cin>>n>>k;
     string s;
     cin>>s;
-    for(int i = 0; i <n ; i++)
+    if(s[n-1] == '#')
     {
-        if(s[i] == '#')cnt++;
-        else cnt = 0;
-        if(cnt == k)
+        cout<<"NO\n";
+        return 0;
+    }
+    for(int i = 0 ; i < n-1; i++)
+    {
+//        cout<<i<<"-i";
+        if(s[i] == '.' && s[i+1] =='#')
+
         {
-            red =1;
-            break;
+
+         key = 0;
+            for(int j = i+1; j <= i+k && j < n ; j++)
+            {
+
+                if(s[j] == '.')
+                {
+                    i = j-1;
+                    key++;
+                    break;
+                }
+            }
+            if(key == 0) red = 1;
         }
     }
     if(red  == 1) cout<<"NO\n";
