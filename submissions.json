@@ -1,4 +1,21 @@
 {
+  "CF172522315": {
+    "contest_id": 412,
+    "language": "GNU C++17",
+    "path": "codeforces\\412\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Poster",
+    "problem_url": "https://codeforces.com/contest/412/problem/A",
+    "submission_id": "CF172522315",
+    "submission_url": "https://codeforces.com/contest/412/submission/172522315",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Sep/18/2022 12:01"
+  },
   "CF172528025": {
     "contest_id": 299,
     "language": "GNU C++17",
