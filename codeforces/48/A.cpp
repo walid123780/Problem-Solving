@@ -10,40 +10,55 @@ using namespace std;
 #define fast           ios_base::sync_with_stdio(false);
 #define optimize()     ios_base :: sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
-bool wins(string s, string t)
-{
-    if(s == "rock") return t == "scissors";
-    if(s == "scissors") return t == "paper";
-    if(s == "paper") return t == "rock";
-
-}
 int main()
 {
     fast;
 //    optimize();
-    string arr = "FMS";
-    vector<string>v(3);
-    rep(i,3) cin>>v[i];
-    rep(i,3)
+    char arr[] = {'F','M','S'};
+    pii s[3];
+    cin>>s[0].first>>s[1].first>>s[2].first;
+    s[0].second = 0;
+    s[1].second = 1;
+    s[2].second = 2;
+    sort(s,s+3);
+    if(s[0].first  == s[1].first  && s[2].first  != s[0].first )
     {
-        bool ok = true;
-        rep(j,3)
+        if(s[2].first == "rock" && s[0].first  == "scissors")
         {
-            if(i != j)
-            {
-                if(!wins(v[i],v[j]))
-                {
-                    ok = false;
-                    break;
-                }
-            }
+            cout<<arr[s[2].second]<<endl;
+            return 0;
         }
-        if(ok == true)
-            {
-                cout<<arr[i]<<"\n";
-                return 0;
-            }
+        else if(s[2].first  == "paper" && s[0].first  == "rock")
+        {
+            cout<<arr[s[2].second]<<endl;
+            return 0;
+        }
+        else if(s[2].first  == "scissors" && s[0].first  == "paper")
+        {
+            cout<<arr[s[2].second]<<endl;
+            return 0;
+        }
+        else cout<<"?\n";
     }
-    cout<<"?\n";
+    else if(s[2].first  == s[1].first  && s[2].first  != s[0].first )
+    {
+        if(s[0].first  == "rock" && s[2].first  == "scissors")
+        {
+            cout<<arr[s[0].second]<<endl;
+            return 0;
+        }
+        else if(s[0].first  == "paper" && s[2].first  == "rock")
+        {
+            cout<<arr[s[0].second]<<endl;
+            return 0;
+        }
+        else if(s[0].first  == "scissors" && s[2].first  == "paper")
+        {
+            cout<<arr[s[0].second]<<endl;
+            return 0;
+        }
+        else cout<<"?\n";
+    }
+    else cout<<"?\n";
     return 0;
 }
