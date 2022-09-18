@@ -1,4 +1,20 @@
 {
+  "CF172567587": {
+    "contest_id": 10,
+    "language": "GNU C++17",
+    "path": "codeforces\\10\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Power Consumption Calculation",
+    "problem_url": "https://codeforces.com/contest/10/problem/A",
+    "submission_id": "CF172567587",
+    "submission_url": "https://codeforces.com/contest/10/submission/172567587",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Sep/18/2022 19:56"
+  },
   "CF172620726": {
     "contest_id": 729,
     "language": "GNU C++17",
