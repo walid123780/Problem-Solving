@@ -15,14 +15,48 @@ int main()
     fast;
 //    optimize();
     int n;
+    cin>>n;
     string s;
-    cin>>n>>s;
-    int x = 0, y = 0, ans = 0;
-    for(auto t : s) x +=t=='x', y+=t=='X';
-    for(int i = 0 ; i < n ; i++){
-        if(s[i] == 'x' && x > y) s[i] = 'X' , x--,y++,ans++;
-        if(s[i] == 'X' && x < y) s[i] = 'x' , x++,y--,ans++;
+    cin>>s;
+    map<char,int>mp;
+    rep(i,n)mp[s[i]]++;
+    char ch = 'x';
+    char ch1 = 'X';
+
+    if(mp[ch] == mp[ch1])
+    {
+        cout<<"0\n";
+        cout<<s;
     }
-    cout<<ans<<"\n"<<s;
+    else if(mp[ch] > n / 2)
+    {
+        cout<<mp[ch] - n / 2<<"\n";
+        int y = mp[ch] - n / 2;
+        for(int i = 0; i < n; i++)
+        {
+            if(s[i] == 'x' && y != 0)
+            {
+                cout<<"X";
+                y--;
+
+            }
+            else cout<<s[i];
+        }
+    }
+    else if(n/2 < mp[ch1])
+    {
+        cout<<mp[ch1] - n / 2<<"\n";
+        int y = mp[ch1] - n / 2;
+        for(int i = 0; i < n; i++)
+        {
+            if(s[i] == 'X' && y != 0)
+            {
+                cout<<"x";
+                y--;
+
+            }
+            else cout<<s[i];
+        }
+    }
     return 0;
 }
