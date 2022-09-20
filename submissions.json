@@ -1,4 +1,22 @@
 {
+  "CF172776047": {
+    "contest_id": 653,
+    "language": "GNU C++17",
+    "path": "codeforces\\653\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bear and Three Balls",
+    "problem_url": "https://codeforces.com/contest/653/problem/A",
+    "submission_id": "CF172776047",
+    "submission_url": "https://codeforces.com/contest/653/submission/172776047",
+    "tags": [
+      "brute force",
+      "implementation",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Sep/20/2022 08:12"
+  },
   "CF172779028": {
     "contest_id": 747,
     "language": "GNU C++17",
