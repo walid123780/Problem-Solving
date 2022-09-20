@@ -10,34 +10,56 @@ using namespace std;
 #define fast           ios_base::sync_with_stdio(false);
 #define optimize()     ios_base :: sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
-int A,C,G,T;
-int Min(){ return min(min(A,C),min(G,T));}
 
 int main()
 {
     fast;
 //    optimize();
-
+    string u = "AGTC";
     int n;
     cin>>n;
     string s;
     cin>>s;
-    for (int i = 0 ; i < n; i++)
+    map<char, int > mp;
+    if(n % 4)
     {
-        if(s[i] == 'A') A++;
-        else if(s[i] == 'C') C++;
-        else if(s[i] == 'G') G++;
-        else if(s[i] == 'T') T++;
+        cout<<"===";
+        return 0;
     }
-    for(int i = 0 ; i < n; i++)
-        if(s[i] == '?')
-            if(A == Min()){s[i] = 'A' ; A++;}
-            else if(C == Min()){s[i] = 'C'; C++;}
-            else if(G == Min()){s[i] = 'G'; G++;}
-            else {s[i] = 'T'; T++;}
-
-    if(A == C && C == G && G == T) cout<<s;
-    else cout<<"===";
-
+    else
+    {
+        int c = n / 4, cnt = 0;
+        rep(i,n) mp[s[i]]++;
+        rep(j, 4)
+        {
+            if(mp[u[j]] == c ) continue;
+            else if(mp[u[j]] > c)
+            {
+                cout<<"===";
+                return 0;
+            }
+            else cnt += (c - mp[u[j]]);
+        }
+        if(mp['?'] == cnt)
+        {
+            rep(i,n)
+            {
+                if(s[i] == '?')
+                {
+                    rep(j, 4)
+                    {
+                        if(mp[u[j]] < c)
+                        {
+                            s[i] = u[j];
+                            mp[u[j]]++;
+                            break;
+                        }
+                    }
+                }
+            }
+            cout<<s;
+        }
+        else cout<<"===";
+    }
     return 0;
 }
