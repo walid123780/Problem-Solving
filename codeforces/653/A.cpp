@@ -17,18 +17,23 @@ int main()
 //    optimize();
     int n;
     cin>>n;
-    int arr[1000 + 7] = {0};
-    rep(i,n)
+    int arr[n+1];
+    rep(i,n) cin>>arr[i];
+    sort(arr,arr+n);
+    for(int i = 0; i < n ; i++)
     {
-        int x;
-        cin>>x;
-        arr[x] = 1;
-    }
-    for(int i = 1; i <= 1000; i++){
-        if(arr[i] && arr[i+1] && arr[i+2]){
-            cout<<"YES\n";
-            return 0;
+        for(int j = i+1 ; j < n ; j++)
+        {
+            for(int k = j + 1; k < n; k++)
+            {
+                if(arr[k] - arr[j] == 1 && arr[j] - arr[i] == 1 )
+                {
+                    cout<<"YES";
+                    return 0;
+                }
+            }
         }
+
     }
     cout<<"NO\n";
     return 0;
