@@ -15,16 +15,30 @@ int main()
 {
     fast;
 //    optimize();
-    int t;
+    int t, dep = 0, ari =0 , de= 0 ,ar = 0;
     cin>>t;
     string s;
     cin>>s;
-    rep(i,t)
+    while(t--)
     {
         string ls;
         cin>>ls;
+        for(int i = 0; i < 3; i++)
+        {
+            if(ls[i] == s[i])dep++;
+        }
+        for(int i = 5,j=0; i < 8; i++,j++)
+        {
+            if(ls[i] == s[j])ari++;
+
+        }
+        if(dep == 3) de++;
+        if(ari == 3) ar++;
+        dep = ari = 0;
     }
-    if(t & 1) cout<<"contest";
-    else cout<<"home";
+//    cout<<de<<" "<<ar<<endl;
+    if(de > ar) cout<<"contest";
+    else if(ar >= de) cout<<"home";
+
     return 0;
 }
