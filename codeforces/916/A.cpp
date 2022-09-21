@@ -10,32 +10,27 @@ using namespace std;
 #define fast           ios_base::sync_with_stdio(false);
 #define optimize()     ios_base :: sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
-const int MOD = 24 * 60;
+
 int main()
 {
     fast;
 //    optimize();
-    int n, cnt = 0 ;
+    int n , cnt = 0 ;
     cin>>n;
-    int h, m;
+    int h , m;
     cin>>h>>m;
-    if((h % 10 == 7) or (m % 10 == 7))
-    {
-        cout<<"0";
-        return 0;
-    }
-    ll time = h * 60 + m;
-    while(1)
-    {
-        time = (time + MOD - n) % MOD;
+    if((h % 10 == 7) or (m % 10 == 7)){cout<<"0"; return 0;}
+    ll time = h * 60;
+    time += m;
+    while(1){
+        if(time - n < 0) time = 1440 + time;
+        time -= n;
         cnt++;
         int hh = time / 60;
         int mm = time % 60;
-        if((hh % 10 == 7) or (mm % 10 == 7))
-        {
-            cout<<cnt;
-            return 0;
-        }
+        hh %= 24;
+//        cout<<cnt <<" :"<<hh<<" "<<mm<<endl;
+        if((hh % 10 == 7) or (mm % 10 == 7)){cout<<cnt; return 0;}
     }
     return 0;
 }
