@@ -1,4 +1,22 @@
 {
+  "CF172909049": {
+    "contest_id": 263,
+    "language": "GNU C++17",
+    "path": "codeforces\\263\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Squares",
+    "problem_url": "https://codeforces.com/contest/263/problem/B",
+    "submission_id": "CF172909049",
+    "submission_url": "https://codeforces.com/contest/263/submission/172909049",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Sep/21/2022 12:47"
+  },
   "CF172911392": {
     "contest_id": 808,
     "language": "GNU C++17",
