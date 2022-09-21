@@ -10,22 +10,30 @@ using namespace std;
 #define fast           ios_base::sync_with_stdio(false);
 #define optimize()     ios_base :: sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
-
+int stringTointeger(string str)
+{
+    int temp = 0;
+    for (int i = 0; i < str.length(); i++) {
+        temp = temp * 10 + (str[i] - '0');
+    }
+    return temp;
+}
 int main()
 {
     fast;
 //    optimize();
-    int n;
-    cin>>n;
-    int now = 1;
-    for(int  i =1; i <= 10; i++){
-        for(int j = 0 ; j <= 9; j++){
-            if(now*j > n){
-                cout<< now * j - n;
-                return 0;
-            }
-        }
-        now *=10;
+    string  s,t,l;
+    cin>>s;
+    l =  s;
+
+    int len  = s.size();
+     t += (s[0] + 1);
+    len -= 1;
+    while(len--){
+        t += '0';
     }
+    int num = stringTointeger(t);
+    int num1 = stringTointeger(l);
+    cout<<num - num1<<endl;
     return 0;
 }
