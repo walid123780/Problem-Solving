@@ -1,4 +1,20 @@
 {
+  "CF172900672": {
+    "contest_id": 622,
+    "language": "GNU C++17",
+    "path": "codeforces\\622\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "The Time",
+    "problem_url": "https://codeforces.com/contest/622/problem/B",
+    "submission_id": "CF172900672",
+    "submission_url": "https://codeforces.com/contest/622/submission/172900672",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Sep/21/2022 10:44"
+  },
   "CF172902348": {
     "contest_id": 765,
     "language": "GNU C++17",
