@@ -1,4 +1,22 @@
 {
+  "CF172955634": {
+    "contest_id": 916,
+    "language": "GNU C++17",
+    "path": "codeforces\\916\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Jamie and Alarm Snooze",
+    "problem_url": "https://codeforces.com/contest/916/problem/A",
+    "submission_id": "CF172955634",
+    "submission_url": "https://codeforces.com/contest/916/submission/172955634",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Sep/21/2022 19:40"
+  },
   "CF172965368": {
     "contest_id": 975,
     "language": "GNU C++17",
