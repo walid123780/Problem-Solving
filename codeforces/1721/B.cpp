@@ -18,10 +18,15 @@ int main()
     cin>>t;
     while(t--)
     {
-        int n,m,x,y,d;
-        cin>>n>>m>>x>>y>>d;
-        if((y - d <= 1 || x + d >= n) && (y + d >= m || x - d <= 1)) cout<<-1<<"\n";
+        int n,m,e,v,d;
+        cin>>n>>m>>e>>v>>d;
+        if((e+d >= n and e-d <= 1) or (v+d >= m and v-d <= 1)) cout<<-1<<"\n";
+        else if(((v-d <= 1) && (e-d <= 1))or ((v+d >= m)  && (e+d >= n)))
+        {
+            cout<<-1<<"\n";
+        }
         else cout<<abs((n-1)+(m-1))<<"\n";
     }
+
     return 0;
 }
