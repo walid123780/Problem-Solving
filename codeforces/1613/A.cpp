@@ -14,6 +14,8 @@ int stringTointeger(string str)
 {
     int temp = 0;
     for (int i = 0; i < str.length(); i++) {
+
+
         temp = temp * 10 + (str[i] - '0');
     }
     return temp;
@@ -55,8 +57,8 @@ int main()
                 }
             }
         }
-        int n = stoi(nn);
-        int m = stoi(mm);
+        int n = stringTointeger(nn);
+        int m = stringTointeger(mm);
         if((m > n && o >= p) || (n > m && o > p) || (n == m && o > p)) cout<<"<";
         else if((n > m && p >= o) || (m > n && p > o)  || (n == m && p > o)) cout<<">";
         else cout<<"=";
