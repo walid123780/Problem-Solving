@@ -2,46 +2,56 @@
 using namespace std;
 
 #define ll             long long int
-#define pii            pair<string,int>
+#define pii            pair<int,int>
 #define rep(i,n)       for(int i=0;i<n;i++)
 #define rep1(i,n)      for(int i=1;i<=n;i++)
 #define output(a,n)    for(int i=0;i<n;i++) cout<<a[i]<<" ";
 #define pb             push_back
-#define endl           "\n"
 #define fast           ios_base::sync_with_stdio(false);
 #define optimize()     ios_base :: sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
 
-int  main()
+int main()
 {
     fast;
-//    optimize();
+    optimize();
     int t;
     cin>>t;
     while(t--)
     {
-        string a,b ;
-        cin>>a>>b;
+        string s, t,m,ss;
+        cin>>s>>ss;
 
-        int n = a.size();
-        int m = b.size();
-        int mx = n+m;
-        for(int i = 0 ; i < n; i++)
+        int mx = INT_MIN;
+        for(int i = 0 ; i < s.size(); i++)
         {
-            for(int j = 0; j < m ; j++)
+            for(int j  = i  ;  j< s.size(); j++)
             {
-
-                for(int k  = 0 ; i + k < n && j + k < m ; k++)
+                t+=s[j];
+                for(int k =  0; k < ss.size() ; k++)
                 {
-                    if(a[i+k] != b[j+k]) break;
-                    else mx = min(mx, n + m - (k + 1) * 2);
+                    for(int l = k ; l < ss.size() ; l++)
+                    {
+                        m+=ss[l];
+//                        cout<<"input :"<<t<<endl;
+//                        cout<<m<<endl;
+                        if(t == m)
+                        {
+                            int r = t.size();
+                            mx = max(mx,r);
+                        }
+                    }
+                    m = "";
                 }
             }
+            t = "";
         }
-        cout<<mx<<endl;
+        int len = s.size();
+        int len1 = ss.size();
+        len -= mx;
+        len1 -=mx;
+//        cout<<mx<<endl;
+        cout<<len+len1<<endl;
     }
     return 0;
 }
-
-
-
