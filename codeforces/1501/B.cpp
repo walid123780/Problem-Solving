@@ -7,7 +7,6 @@ using namespace std;
 #define rep1(i,n)      for(int i=1;i<=n;i++)
 #define output(a,n)    for(int i=0;i<n;i++) cout<<a[i]<<" ";
 #define pb             push_back
-#define nn             "\n"
 #define fast           ios_base::sync_with_stdio(false);
 #define optimize()     ios_base :: sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
@@ -20,25 +19,29 @@ int main()
     cin>>t;
     while(t--)
     {
-        int n,value = 0,mn =INT_MAX;
+        int n,value = 0 ,mn =INT_MAX;
         cin>>n;
-        int x[n+3] = {0};
+        int arr[n+1]={0};
         for(int i = 0; i < n; i++)
         {
-            int z ;
-            cin>>z;
-            x[i+1] += -1;
-            x[max(0,i-z+1)] += 1;
+            cin>>arr[i];
         }
-
-        ll c = 0;
-        for(int i = 0 ; i < n; i++)
+        for(int i = n-1 ; i >= 0; i--)
         {
-            c+=x[i];
-            if(c == 0) cout<<0<<" ";
-            else cout<<1<<" ";
+            if(arr[i] > 0){
+                int x = i - arr[i];
+                mn = min(mn,x);
+                if(mn == x)
+                value = arr[i];
+            }
+            if(value > 0)
+            {
+                arr[i] = 1;
+                value--;
+            }
         }
-        cout<<nn;
+        output(arr,n);
+        cout<<endl;
     }
     return 0;
 
