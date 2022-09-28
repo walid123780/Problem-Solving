@@ -1,4 +1,20 @@
 {
+  "AC35209359": {
+    "contest_id": "abc270",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc270\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Hammer",
+    "problem_url": "https://atcoder.jp/contests/abc270/tasks/abc270_b",
+    "submission_id": "AC35209359",
+    "submission_url": "https://atcoder.jp/contests/abc270/submissions/35209359",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/28/2022 10:51"
+  },
   "AC35210767": {
     "contest_id": "abc270",
     "language": "C++ (GCC 9.2.1)",
