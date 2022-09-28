@@ -1,4 +1,22 @@
 {
+  "CF173832678": {
+    "contest_id": 1672,
+    "language": "GNU C++17",
+    "path": "codeforces\\1672\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Unequal Array",
+    "problem_url": "https://codeforces.com/contest/1672/problem/C",
+    "submission_id": "CF173832678",
+    "submission_url": "https://codeforces.com/contest/1672/submission/173832678",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Sep/28/2022 21:30"
+  },
   "CF173956200": {
     "contest_id": 1739,
     "language": "GNU C++17",
