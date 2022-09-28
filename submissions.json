@@ -1,4 +1,20 @@
 {
+  "AC35208090": {
+    "contest_id": "abc270",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc270\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "1-2-4 Test",
+    "problem_url": "https://atcoder.jp/contests/abc270/tasks/abc270_a",
+    "submission_id": "AC35208090",
+    "submission_url": "https://atcoder.jp/contests/abc270/submissions/35208090",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Sep/28/2022 09:01"
+  },
   "AC35209359": {
     "contest_id": "abc270",
     "language": "C++ (GCC 9.2.1)",
