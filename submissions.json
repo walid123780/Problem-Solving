@@ -1,4 +1,20 @@
 {
+  "AC35243046": {
+    "contest_id": "abc259",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc259\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Counterclockwise Rotation",
+    "problem_url": "https://atcoder.jp/contests/abc259/tasks/abc259_b",
+    "submission_id": "AC35243046",
+    "submission_url": "https://atcoder.jp/contests/abc259/submissions/35243046",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/30/2022 07:52"
+  },
   "AC35243275": {
     "contest_id": "abc259",
     "language": "C++ (GCC 9.2.1)",
