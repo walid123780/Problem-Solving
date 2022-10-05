@@ -22,34 +22,34 @@ int main()
     while(t--){
         int n;
         cin>>n;
-        multiset<int >a,b;
+        std::priority_queue <int >a,b;
         for(int i = 0; i < n ; i++){
             int x;
             cin>>x;
-            a.insert(x);
+            a.push(x);
         }
         for(int i = 0; i < n ; i++){
             int x;
             cin>>x;
-            b.insert(x);
+            b.push(x);
         }
         int ans =  0;
         while(!a.empty()){
-            int x =  *a.rbegin();
-            int y =  *b.rbegin();
+            int x =  a.top();
+            int y =  b.top();
 
             if(x == y){
-                a.erase(--(a.end()));
-                b.erase(--(b.end()));
+                a.pop();
+                b.pop();
             }
             else if(x < y){
-                b.erase(--(b.end()));
-                b.insert(int_length(y));
+                b.pop();
+                b.push(int_length(y));
                 ans++;
             }
             else if(y < x){
-                a.erase(--(a.end()));
-                a.insert(int_length(x));
+                a.pop();
+                a.push(int_length(x));
                 ans++;
             }
         }
