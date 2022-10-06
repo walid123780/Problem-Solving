@@ -17,24 +17,24 @@ int main()
 {
     fast;
 //    optimize();
-    int  t;
+    ll  t;
     cin>>t;
     while(t--)
     {
-        int n;
+        ll n;
         cin>>n;
-        int a[n+1]= {0},b[n+1]= {0} , l = 0, m = 0;
-        for(int i = 0; i < n ; i++)
+        ll a[n+1]= {0},b[n+1]= {0}, l = 0, m = 0;
+        for(ll i = 0; i < n ; i++)
         {
             cin>>a[i];
         }
-        int mno = INT_MAX, mne = INT_MAX;
-        ll sum = 0 ,oddsum = 0 ,evsum = 0;
-        int od[n+1]={0}, ev[n+1]={0};
-        for(int i = 0; i < n ; i++)
+        ll mno = INT_MAX, mne = INT_MAX;
+        ll sum = 0,oddsum = 0,evsum = 0;
+        ll od[n+1]= {0}, ev[n+1]= {0};
+        for(ll i = 0; i < n ; i++)
         {
             cin>>b[i];
-            sum += b[i];
+            sum+=b[i];
             if(a[i] == 1)
             {
                 od[l++] = b[i];
@@ -48,22 +48,41 @@ int main()
                 mne = min(b[i], mne);
             }
         }
-        if( l == m){
-            sum = (sum * 2) -  min(mno,mne);
+        if( l == m)
+        {
+            sum += (sum) -  min(mno,mne);
         }
-        else if(l > m){
+
+        else
+        {
             sort(od,od+l);
-            for(int i =  l-1; i >=l-m; i--){
-                sum += (od[i]);
-            }
-            sum += (evsum );
-        }
-        else if(m > l){
             sort(ev,ev+m);
-            for(int i =  m-1; i >=m-l; i--){
-                sum += (ev[i]);
+            sum = 0;
+            int sz = min(l, m );
+            sz -= 1;
+            int cnt = sz;
+            for(int i = l-1 ; i >= 0; i--)
+            {
+                if(sz>=0)
+                {
+                    sum += od[i];
+                    sum += od[i];
+                    sz--;
+                }
+                else sum += od[i];
             }
-            sum += (oddsum );
+            for(int i = m-1 ; i >= 0; i--)
+            {
+                if(cnt>=0)
+                {
+                    sum += ev[i];
+                    sum += ev[i];
+                    cnt--;
+
+                }
+                else sum += ev[i];
+            }
+
         }
         cout<<sum<<endl;
     }
