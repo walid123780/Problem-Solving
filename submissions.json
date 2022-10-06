@@ -1,4 +1,22 @@
 {
+  "CF174888803": {
+    "contest_id": 1725,
+    "language": "GNU C++17",
+    "path": "codeforces\\1725\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Basketball Together",
+    "problem_url": "https://codeforces.com/contest/1725/problem/B",
+    "submission_id": "CF174888803",
+    "submission_url": "https://codeforces.com/contest/1725/submission/174888803",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Oct/06/2022 22:58"
+  },
   "CF175241924": {
     "contest_id": 1725,
     "language": "GNU C++17",
