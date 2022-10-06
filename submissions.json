@@ -1,4 +1,22 @@
 {
+  "CF174835004": {
+    "contest_id": 1738,
+    "language": "GNU C++17",
+    "path": "codeforces\\1738\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Glory Addicts",
+    "problem_url": "https://codeforces.com/contest/1738/problem/A",
+    "submission_id": "CF174835004",
+    "submission_url": "https://codeforces.com/contest/1738/submission/174835004",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Oct/06/2022 15:45"
+  },
   "CF174888803": {
     "contest_id": 1725,
     "language": "GNU C++17",
