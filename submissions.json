@@ -1,4 +1,22 @@
 {
+  "CF175267387": {
+    "contest_id": 1721,
+    "language": "GNU C++17",
+    "path": "codeforces\\1721\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Min-Max Array Transformation",
+    "problem_url": "https://codeforces.com/contest/1721/problem/C",
+    "submission_id": "CF175267387",
+    "submission_url": "https://codeforces.com/contest/1721/submission/175267387",
+    "tags": [
+      "binary search",
+      "greedy",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Oct/09/2022 22:46"
+  },
   "CF175269486": {
     "contest_id": 1721,
     "language": "GNU C++17",
