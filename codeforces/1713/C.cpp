@@ -19,29 +19,42 @@ int main()
 //    optimize();
     int t;
     cin>>t;
+
     while(t--)
     {
         ll n, j = 0,sqr = 0;
         cin>>n;
-        int x[n]={0};
-        int lo = n-1;
-        while(lo > 0)
+        bool ok[n]= {false};
+        vector<int>v;
+        for(int i = n-1 ; i >= 0; )
         {
-            int nxt = sqrt(lo);
-            while(nxt*nxt < lo) nxt++;
-            int tmp = nxt *nxt - lo;
-            int z = lo - tmp + 1;
-            while(z--)
+            if(sqr < i)
             {
-                x[lo] = tmp;
-                lo--;
-                tmp++;
+                j++;
+                sqr =  j * j;
+                continue;
             }
+            else if((sqr >= i) && (sqr - i <= n - 1) && ok[sqr - i] == false)
+            {
+//                cout<<sqr<<" ";
+                ll ans = sqr - i;
+                ok[ans] = true;
+                v.pb(ans);
+                i--;
+            }
+
+            else
+            {
+                j--;
+                sqr = j * j;
+                continue;
+            }
+
         }
-        for(int i = 0 ; i < n; i++)
-        {
-            cout<<x[i]<<" ";
-        }
+        reverse(v.begin(),v.end());
+//        rep(i,n) cout<<i<<" ";
+//        cout<<endl;
+        output(v,n);
         cout<<endl;
     }
     return 0;
