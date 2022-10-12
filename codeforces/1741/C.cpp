@@ -23,32 +23,28 @@ int main()
     {
         ll n;
         cin>>n;
-        vector<int>arr(n+2),pre(n+2,0);
+        vector<int>arr(n+2);
+        int s = 0,ans = n+1;
         for(int  i = 1; i <= n; i++)
         {
             cin>>arr[i];
-            pre[i] = pre[i-1] + arr[i];
         }
-        int ans = n;
         for(int i = 1; i <= n ; i++)
         {
-            int temp = i;
-            int l = i;
-            int first = pre[i];
-            bool flag = false;
-            int j = i+1;
+            s += arr[i];
+            int j = i+1, tmp = i, cnt = 0, sum = 0;
             while(j <= n)
             {
-                if(pre[j] - pre[l] == first)
+                sum += arr[j];
+                cnt++;
+                if(sum == s)
                 {
-                    temp = max(temp, j-l);
-                    l = j;
-                    if(j == n) flag = true;
+                    tmp = max(tmp, cnt);
+                    cnt = 0, sum = 0;
                 }
                 j++;
-
             }
-            if(flag)ans = min(ans,temp);
+            if(sum == 0)ans = min(ans,tmp);
         }
         cout<<ans<<endl;
     }
