@@ -15,19 +15,18 @@ using namespace std;
 
 void solve()
 {
-    ll l,r,a, md = 0;
+    ll l,r,a , md = 0 , oc;
     cin>>l>>r>>a;
-    ll up = r / a;
-    ll mod = r % a;
-    ll ans = up + mod;
-    ll check = (up * a) - 1;
-    if(check >= l)
-    {
-        ll oc = check / a;
-        ll md = check % a;
-        ans = max(ans,oc + md);
+    ll mx = (r / a) + r % a;
+    ll z = r / a;
+    ll check = (z * a) - 1;
+    if(check >= l){
+        oc = check / a;
+        md = check % a;
+        mx = max(mx,oc+md);
     }
-    cout<<ans<<endl;
+
+    cout<<mx<<endl;
 }
 
 int main()
