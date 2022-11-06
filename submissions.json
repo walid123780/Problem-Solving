@@ -1,4 +1,20 @@
 {
+  "AC36280084": {
+    "contest_id": "abc276",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc276\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Previous Permutation",
+    "problem_url": "https://atcoder.jp/contests/abc276/tasks/abc276_c",
+    "submission_id": "AC36280084",
+    "submission_url": "https://atcoder.jp/contests/abc276/submissions/36280084",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Nov/06/2022 12:46"
+  },
   "AC36299824": {
     "contest_id": "abc275",
     "language": "C++ (GCC 9.2.1)",
