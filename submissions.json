@@ -1,4 +1,20 @@
 {
+  "AC36278832": {
+    "contest_id": "abc276",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc276\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Adjacency List",
+    "problem_url": "https://atcoder.jp/contests/abc276/tasks/abc276_b",
+    "submission_id": "AC36278832",
+    "submission_url": "https://atcoder.jp/contests/abc276/submissions/36278832",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/06/2022 11:51"
+  },
   "AC36280084": {
     "contest_id": "abc276",
     "language": "C++ (GCC 9.2.1)",
