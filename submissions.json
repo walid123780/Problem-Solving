@@ -1,4 +1,20 @@
 {
+  "AC36326147": {
+    "contest_id": "abc274",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc274\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Line Sensor",
+    "problem_url": "https://atcoder.jp/contests/abc274/tasks/abc274_b",
+    "submission_id": "AC36326147",
+    "submission_url": "https://atcoder.jp/contests/abc274/submissions/36326147",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/08/2022 18:26"
+  },
   "AC36355700": {
     "contest_id": "abc273",
     "language": "C++ (GCC 9.2.1)",
