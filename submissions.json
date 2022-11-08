@@ -1,4 +1,20 @@
 {
+  "AC36325902": {
+    "contest_id": "abc274",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc274\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Batting Average",
+    "problem_url": "https://atcoder.jp/contests/abc274/tasks/abc274_a",
+    "submission_id": "AC36325902",
+    "submission_url": "https://atcoder.jp/contests/abc274/submissions/36325902",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Nov/08/2022 18:18"
+  },
   "AC36326147": {
     "contest_id": "abc274",
     "language": "C++ (GCC 9.2.1)",
