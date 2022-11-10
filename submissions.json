@@ -1,4 +1,20 @@
 {
+  "AC36370232": {
+    "contest_id": "abc273",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc273\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Broken Rounding",
+    "problem_url": "https://atcoder.jp/contests/abc273/tasks/abc273_b",
+    "submission_id": "AC36370232",
+    "submission_url": "https://atcoder.jp/contests/abc273/submissions/36370232",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/10/2022 23:02"
+  },
   "AC36392945": {
     "contest_id": "abc272",
     "language": "C++ (GCC 9.2.1)",
