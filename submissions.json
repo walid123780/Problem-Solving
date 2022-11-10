@@ -1,4 +1,20 @@
 {
+  "AC36355700": {
+    "contest_id": "abc273",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc273\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "A Recursive Function",
+    "problem_url": "https://atcoder.jp/contests/abc273/tasks/abc273_a",
+    "submission_id": "AC36355700",
+    "submission_url": "https://atcoder.jp/contests/abc273/submissions/36355700",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Nov/10/2022 09:40"
+  },
   "AC36356571": {
     "contest_id": "abc273",
     "language": "C++ (GCC 9.2.1)",
