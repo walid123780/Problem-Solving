@@ -19,18 +19,46 @@ void solve()
 {
     int n;
     cin>>n;
-    int a[n+1] ={0} , ans = 0;
-    map<int,int > freq;
+    int a[n+1] ={0};
+    bool ok[n+1] = {false};
     rep(i, n)
     {
         cin>>a[i];
-        freq[a[i]]++;
     }
-    rep(i, n)
+    sort(a,a+n);
+
+    int cnt = 0;
+    for(int i = 0; i < n ; i++)
     {
-        ans = max(ans , freq[a[i]]);
+        int indx = upper_bound(a,a+n,a[i])-a;
+        int red = 0;
+        if(indx == n)
+        {
+            cnt++ ;
+            continue;
+        }
+        if(ok[indx] == false)
+        {
+            red = 1;
+            ok[indx] = true;
+        }
+        else if(ok[indx] == true)
+        {
+            int j ;
+            for(j = indx; j < n; j++)
+            {
+
+                if(ok[j] == false)
+                {
+                    red = 1;
+                    ok[j] = true;
+                    break;
+                }
+            }
+        }
+        if(!red) cnt++;
     }
-    cout<<ans<<endl;
+    cout<<cnt<< endl;
 
 }
 int main()
