@@ -1,4 +1,21 @@
 {
+  "CF180322270": {
+    "contest_id": 1719,
+    "language": "GNU C++17",
+    "path": "codeforces\\1719\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Mathematical Circus",
+    "problem_url": "https://codeforces.com/contest/1719/problem/B",
+    "submission_id": "CF180322270",
+    "submission_url": "https://codeforces.com/contest/1719/submission/180322270",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Nov/10/2022 21:21"
+  },
   "CF180399935": {
     "contest_id": 855,
     "language": "GNU C++17",
