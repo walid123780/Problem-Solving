@@ -1,4 +1,20 @@
 {
+  "AC36394625": {
+    "contest_id": "abc272",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc272\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Everyone is Friends",
+    "problem_url": "https://atcoder.jp/contests/abc272/tasks/abc272_b",
+    "submission_id": "AC36394625",
+    "submission_url": "https://atcoder.jp/contests/abc272/submissions/36394625",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Nov/12/2022 08:55"
+  },
   "AC36795206": {
     "contest_id": "abc279",
     "language": "C++ (GCC 9.2.1)",
