@@ -1,4 +1,20 @@
 {
+  "AC37338799": {
+    "contest_id": "abc282",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc282\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "String Delimiter",
+    "problem_url": "https://atcoder.jp/contests/abc282/tasks/abc282_c",
+    "submission_id": "AC37338799",
+    "submission_url": "https://atcoder.jp/contests/abc282/submissions/37338799",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/17/2022 18:23"
+  },
   "AC38466440": {
     "contest_id": "arc155",
     "language": "C++ (GCC 9.2.1)",
