@@ -1,98 +1,129 @@
-#include<bits/stdc++.h>
+
+// Author: Md .Ashik Billah Walid
+
+#include <bits/stdc++.h>
 using namespace std;
-int main()
+
+#define ll             long long int
+#define pii            pair<int,int>
+#define rep(i,n)       for(ll i=0;i<n;i++)
+#define rep1(i,n)      for(int i=1;i<=n;i++)
+#define output(a,n)    for(int i=0;i<n;i++) cout<<a[i]<<" ";
+#define pb             push_back
+#define f              first
+#define s              second
+#define fast           ios_base::sync_with_stdio(false);
+#define optimize()     ios_base :: sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define str_unique(s)  s.resize(unique(s.begin(), s.end()) - s.begin());
+#define str_unique1    s.erase(unique(s.begin(),s.end()),s.end());
+#define int_length(x)  to_string(x).length()
+#define all(x)         x.begin(), x.end()
+
+
+void solve()
 {
-    int n, m,x , r;
-    cin>>n>>m>>x;
-    r = x;
+    int n, m, k, lm = 0;
+    cin>>n>>m>>k;
     string s = "";
-    x--;
+    lm = k;
+    k--;
+    int first = 0, i = 0;
     if(n > m)
     {
-        int f = 0;
-        while(m > 0)
+        while(k--)
         {
-            if(x == 0) break;
-            if(!f)
+            if(m != 0)
             {
-                s += "01";
-                m--;
-                n--;
-                f = 1;
-                x--;
-                continue;
+                if(first == 0)
+                {
+                    s += '0';
+                    s += '1';
+                    first = 1;
+                    n--;
+                    m--;
+                    continue;
+                }
+                if(i % 2 == 0)
+                {
+                    s += '0';
+                    n--;
+                }
+                else if(i % 2 == 1)
+                {
+                    s+= '1';
+                    m--;
+                }
             }
-            if(f == 1)
-            {
-                s +='0';
-                n--;
-                f = 2;
-                x--;
-                continue;
-            }
-            if(f == 2)
-            {
-                s +='1';
-                m--;
-                f = 1;
-                x--;
-                continue;
-            }
-
+            i++;
         }
     }
+
     else if(m >= n)
     {
-        int f = 0 ;
-        while(n > 0)
+        while(k--)
         {
-            if(x == 0) break;
-            if(!f)
+            if(n != 0)
             {
-                s +="10";
-                m--;
-                n--;
-                f = 1;
-                x--;
-                continue;
+                if(first == 0)
+                {
+                    s += '1';
+                    s += '0';
+                    first = 1;
+                    n--;
+                    m--;
+                    continue;
+                }
+                if(i % 2 == 0)
+                {
+                    s += '1';
+                    m--;
+                }
+                else if(i % 2 == 1)
+                {
+                    s += '0';
+                    n--;
+                }
             }
-            if(f == 1)
-            {
-                s +="1";
-                m--;
-                f = 2;
-                x--;
-                continue;
-            }
-            if(f == 2)
-            {
-                s += "0";
-                n--;
-                f = 1;
-                x--;
-                continue;
-            }
+            i++;
         }
     }
-    if(s[s.size() - 1] == '0' || r == 1){
-        while(n--){
-            s+= '0';
+    int sz = s.size();
+    if(s[sz - 1] == '1' || lm == 1)
+    {
+        while(m--)
+        {
+            s += '1';
         }
-        while(m--){
-            s+='1';
+        while(n--)
+        {
+            s += '0';
         }
-        cout<<s<<endl;
-        return 0;
     }
-    if(s[s.size() - 1] == '1'){
-        while(m--){
-            s+= '1';
+    else if(s[sz - 1] == '0')
+    {
+        while(n--)
+        {
+            s += '0';
         }
-        while(n--){
-            s+='0';
+        while(m--)
+        {
+            s += '1';
         }
-        cout<<s<<endl;
-        return 0;
     }
-
+    cout<<s<<endl;
 }
+
+int main()
+{
+    fast;
+//    optimize();
+//    solve();
+    int t = 1;
+//    cin>>t;
+    while(t--)
+    {
+        solve();
+    }
+    return 0;
+}
+
