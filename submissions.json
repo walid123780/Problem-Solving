@@ -1,4 +1,20 @@
 {
+  "AC38466440": {
+    "contest_id": "arc155",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\arc155\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "ST and TS  Palindrome",
+    "problem_url": "https://atcoder.jp/contests/arc155/tasks/arc155_a",
+    "submission_id": "AC38466440",
+    "submission_url": "https://atcoder.jp/contests/arc155/submissions/38466440",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jan/29/2023 20:22"
+  },
   "AC39648165": {
     "contest_id": "abc293",
     "language": "C++ (GCC 9.2.1)",
