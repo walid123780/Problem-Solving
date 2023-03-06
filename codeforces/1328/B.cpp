@@ -2,6 +2,10 @@
 using namespace std;
 
 #define ll long long
+int f(ll n){
+    ll temp = n * (n + 1);
+    return temp / 2;
+}
 int main()
 {
     ios_base::sync_with_stdio(0);
@@ -10,25 +14,24 @@ int main()
     cin>>t;
     while(t--)
     {
-        ll n , k ;
+        int n , k ;
         cin>>n>>k;
-
-        ll x = floor ((1.0 + sqrt(1 + 8 * k)) / 2.0);
-        ll p = x * (x - 1) / 2;
-        if(p > k) x--;
-        else if(p < k) x++;
-        x--;
-        p = x * (x - 1) / 2;
-        ll y = k - p;
-
-        ll p1 = n - x;
-        ll p2 = n - y + 1;
-        for(int i = 1 ; i <= n; i++){
-            if(i!=p1 && i != p2)cout<<'a';
-            else cout<< 'b';
+        string s = "";
+        for(int i = 0 ; i < n ; i++){
+            s += 'a';
         }
-        cout<< endl;
-
+        ll i =  1 , up;
+        int fB = n - 2 , SB = n - 1;
+        for(; ; i++){
+            up = f(i);
+            if(up >= k) break;
+            fB--;
+            SB--;
+        }
+        ll msb = up - k;
+        s[fB] = 'b';
+        s[msb + SB] = 'b';
+        cout<<s<<endl;
     }
     return 0;
 }
