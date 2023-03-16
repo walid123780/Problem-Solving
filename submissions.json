@@ -1,4 +1,23 @@
 {
+  "CF197686397": {
+    "contest_id": 1574,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1574\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Slay the Dragon",
+    "problem_url": "https://codeforces.com/contest/1574/problem/C",
+    "submission_id": "CF197686397",
+    "submission_url": "https://codeforces.com/contest/1574/submission/197686397",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "ternary search",
+      "*1300"
+    ],
+    "timestamp": "Mar/17/2023 01:17"
+  },
   "CF197937178": {
     "contest_id": 1806,
     "language": "GNU C++20 (64)",
