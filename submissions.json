@@ -1,4 +1,22 @@
 {
+  "CF197997952": {
+    "contest_id": 1806,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1806\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Walking Master",
+    "problem_url": "https://codeforces.com/contest/1806/problem/A",
+    "submission_id": "CF197997952",
+    "submission_url": "https://codeforces.com/contest/1806/submission/197997952",
+    "tags": [
+      "geometry",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/18/2023 23:16"
+  },
   "CF198007056": {
     "contest_id": 1806,
     "language": "GNU C++20 (64)",
