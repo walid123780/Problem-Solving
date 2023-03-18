@@ -1,4 +1,21 @@
 {
+  "CF198007056": {
+    "contest_id": 1806,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1806\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Mex Master",
+    "problem_url": "https://codeforces.com/contest/1806/problem/B",
+    "submission_id": "CF198007056",
+    "submission_url": "https://codeforces.com/contest/1806/submission/198007056",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Mar/19/2023 00:29"
+  },
   "CF198328735": {
     "contest_id": 1807,
     "language": "GNU C++20 (64)",
