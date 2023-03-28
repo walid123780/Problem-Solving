@@ -40,7 +40,9 @@ int main()
 				break;
 			}
 		}
-		if(f) cout << "NO" << endl;
+		if(f) {
+			cout << "NO" << endl;
+		}
 		else{
 			cout << "YES" << endl;
 			for(auto it : re){
