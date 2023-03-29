@@ -1,4 +1,20 @@
 {
+  "CF199731523": {
+    "contest_id": 1118,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1118\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Water Buying",
+    "problem_url": "https://codeforces.com/contest/1118/problem/A",
+    "submission_id": "CF199731523",
+    "submission_url": "https://codeforces.com/contest/1118/submission/199731523",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Mar/29/2023 22:33"
+  },
   "CF199738693": {
     "contest_id": 1674,
     "language": "GNU C++20 (64)",
