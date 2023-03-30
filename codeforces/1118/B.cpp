@@ -23,7 +23,7 @@ int main()
         for(int i = 1; i <= n; i++){
             o_pre[i] += o_pre[i - 1];
             e_pre[i] += e_pre[i - 1];
-        }//
+        }
         int ans = 0;
         for(int i = 1; i <= n ; i++){
             odd = o_pre[i - 1] + e_pre[n] - e_pre[i];
@@ -32,5 +32,5 @@ int main()
         }
         cout << ans << endl;
     }
-    return 0;
+    return 0;//
 }
