@@ -1,4 +1,20 @@
 {
+  "CF199771745": {
+    "contest_id": 1118,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1118\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Tanya and Candies",
+    "problem_url": "https://codeforces.com/contest/1118/problem/B",
+    "submission_id": "CF199771745",
+    "submission_url": "https://codeforces.com/contest/1118/submission/199771745",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Mar/30/2023 07:35"
+  },
   "CF199771767": {
     "contest_id": 1118,
     "language": "GNU C++20 (64)",

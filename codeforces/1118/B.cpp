@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-// ck
+
 #define ll long long
 int main()
 {
@@ -19,7 +19,7 @@ int main()
 			if(i % 2) o_pre[i] += x;
 			else e_pre[i] += x;
 		}
-		
+		// check
 		for(int i = 1; i <= n; i++){
 			o_pre[i] += o_pre[i - 1];
 			e_pre[i] += e_pre[i - 1];
