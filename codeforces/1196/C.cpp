@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int INF = 1e5;
 int main()
 {
     ios_base::sync_with_stdio(0);
@@ -11,32 +10,58 @@ int main()
     while(t--) {
     	int n;
     	cin >> n;
-    	
-    	int x_min = -INF, x_max = INF;
-    	int y_min = -INF , y_max = INF;
-     	for(int i = 0; i < n; i++){
-    			int x , y;
-    			int f1 , f2 , f3 , f4;
-    			cin >> x >> y;
-    			cin >> f1 >> f2 >> f3 >> f4;
-    			if(!f1) {
-    				x_min = max(x_min , x);
-    			}
-    			if(!f2) {
-    				y_max = min(y_max , y);
-    			}
-    			if(!f3) {
-    				x_max = min(x_max , x);
-    			}
-    			if(!f4) {
-    				y_min = max(y_min , y);
-    			}
+    	std::vector<pair<int ,pair<int,int>>> x , y;
+    	for(int i = 0; i < n; i++){
+    			int a , b , c, d, e, f;
+    			cin >> a >> b >> c >> d >> e >> f;
+    			x.push_back(make_pair(a , make_pair(c , e)));
+    			y.push_back(make_pair(b , make_pair(d , f)));
+
     	}
-    	if(x_min <= x_max && y_min <= y_max) {
-    		cout << 1 << " " << x_min << " " << y_min << endl; 
+    	sort(x.begin(), x.end());
+    	sort(y.begin(), y.end());
+    	// for(auto it : x) {
+    	// 	cout << it.first << " " << it.second.first << " " << it.second.second << endl;
+    	// }
+    	int ok = 0 , koytax = 0 , koytay = 0 , setx = -1;
+    	for(int i = 0 ; i < n; i++) {
+    		if(x[i].first == setx && i) {koytax += 1 ; continue;}
+    		else if(x[i].second.second == 1 && !ok) {
+    			koytax += 1;
+    		}
+    		else if(x[i].second.second == 0 && !ok) {
+    			koytax += 1;
+    			setx = x[i].first;
+    			ok = 1;
+    		}
+    		else if(x[i].second.first == 1 && ok) {
+    			koytax += 1;
+    		}
     	}
-    	else cout << 0 << endl;
-    	
+    	ok = 0;
+    	int sety = -1;
+    	for(int i = 0 ; i < n; i++) {
+    		if(y[i].first == sety && i) {koytay += 1 ; continue;}
+    		else if(y[i].second.first == 1 && !ok) {
+    			koytay += 1;
+    		}
+    		else if(y[i].second.first == 0 && !ok) {
+    			koytay += 1;
+    			sety = y[i].first;
+    			ok = 1;
+    		}
+    		else if(y[i].second.second == 1 && ok) {
+    			koytay += 1;
+    		}
+    	}
+    	if(koytax == n && koytay == n) {
+    		if(setx == -1) setx = x[n - 1].first;
+    		if(sety == -1) sety = y[n - 1].first;
+    		cout << 1 << " " << setx << " " << sety << endl; 
+    	}
+    	else {
+    		cout << 0 << endl;
+    	}
     }
     return 0;
 }
