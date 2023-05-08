@@ -1,4 +1,20 @@
 {
+  "CF205033653": {
+    "contest_id": 1711,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1711\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Perfect Permutation",
+    "problem_url": "https://codeforces.com/contest/1711/problem/A",
+    "submission_id": "CF205033653",
+    "submission_url": "https://codeforces.com/contest/1711/submission/205033653",
+    "tags": [
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "May/08/2023 07:00"
+  },
   "CF205069648": {
     "contest_id": 1711,
     "language": "GNU C++20 (64)",
