@@ -1,4 +1,21 @@
 {
+  "CF205069726": {
+    "contest_id": 1711,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1711\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Party",
+    "problem_url": "https://codeforces.com/contest/1711/problem/B",
+    "submission_id": "CF205069726",
+    "submission_url": "https://codeforces.com/contest/1711/submission/205069726",
+    "tags": [
+      "brute force",
+      "graphs",
+      "*1300"
+    ],
+    "timestamp": "May/08/2023 16:41"
+  },
   "CF205083751": {
     "contest_id": 1825,
     "language": "GNU C++20 (64)",
