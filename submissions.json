@@ -1,4 +1,21 @@
 {
+  "CF205083751": {
+    "contest_id": 1825,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1825\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "LuoTianyi and the Palindrome String",
+    "problem_url": "https://codeforces.com/contest/1825/problem/A",
+    "submission_id": "CF205083751",
+    "submission_url": "https://codeforces.com/contest/1825/submission/205083751",
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "May/08/2023 18:13"
+  },
   "CF205176519": {
     "contest_id": 1825,
     "language": "GNU C++20 (64)",
