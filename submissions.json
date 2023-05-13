@@ -1,4 +1,20 @@
 {
+  "CF205730476": {
+    "contest_id": 1231,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1231\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Increasing Matrix",
+    "problem_url": "https://codeforces.com/contest/1231/problem/C",
+    "submission_id": "CF205730476",
+    "submission_url": "https://codeforces.com/contest/1231/submission/205730476",
+    "tags": [
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "May/13/2023 20:37"
+  },
   "CF205782275": {
     "contest_id": 1832,
     "language": "GNU C++20 (64)",
