@@ -1,4 +1,21 @@
 {
+  "CF207987356": {
+    "contest_id": 1779,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1779\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "MKnez's ConstructiveForces Task",
+    "problem_url": "https://codeforces.com/contest/1779/problem/B",
+    "submission_id": "CF207987356",
+    "submission_url": "https://codeforces.com/contest/1779/submission/207987356",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*900"
+    ],
+    "timestamp": "May/31/2023 23:16"
+  },
   "CF207992927": {
     "contest_id": 1779,
     "language": "GNU C++20 (64)",
