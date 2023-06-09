@@ -1,4 +1,22 @@
 {
+  "CF209076038": {
+    "contest_id": 729,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\729\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Road to Cinema",
+    "problem_url": "https://codeforces.com/contest/729/problem/C",
+    "submission_id": "CF209076038",
+    "submission_url": "https://codeforces.com/contest/729/submission/209076038",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Jun/09/2023 15:15"
+  },
   "CF209448221": {
     "contest_id": 1841,
     "language": "GNU C++20 (64)",
