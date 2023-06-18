@@ -1,4 +1,21 @@
 {
+  "CF210178711": {
+    "contest_id": 845,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\845\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Chess Tourney",
+    "problem_url": "https://codeforces.com/contest/845/problem/A",
+    "submission_id": "CF210178711",
+    "submission_url": "https://codeforces.com/contest/845/submission/210178711",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Jun/19/2023 01:06"
+  },
   "CF210185805": {
     "contest_id": 845,
     "language": "GNU C++20 (64)",
