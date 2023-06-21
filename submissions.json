@@ -4452,6 +4452,26 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF210544120": {
+    "contest_id": 1843,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1843\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Apple Tree",
+    "problem_url": "https://codeforces.com/contest/1843/problem/D",
+    "submission_id": "CF210544120",
+    "submission_url": "https://codeforces.com/contest/1843/submission/210544120",
+    "tags": [
+      "combinatorics",
+      "dfs and similar",
+      "dp",
+      "math",
+      "trees",
+      "*1200"
+    ],
+    "timestamp": "Jun/21/2023 18:19"
+  },
   "CF210578568": {
     "contest_id": 799,
     "language": "GNU C++20 (64)",
