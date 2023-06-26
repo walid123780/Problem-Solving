@@ -4452,6 +4452,22 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF211169856": {
+    "contest_id": 68,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\68\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Energy exchange",
+    "problem_url": "https://codeforces.com/contest/68/problem/B",
+    "submission_id": "CF211169856",
+    "submission_url": "https://codeforces.com/contest/68/submission/211169856",
+    "tags": [
+      "binary search",
+      "*1600"
+    ],
+    "timestamp": "Jun/26/2023 23:58"
+  },
   "CF211169893": {
     "contest_id": 42,
     "language": "GNU C++20 (64)",
