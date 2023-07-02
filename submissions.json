@@ -4452,6 +4452,22 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF211791226": {
+    "contest_id": 598,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\598\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tricky Sum",
+    "problem_url": "https://codeforces.com/contest/598/problem/A",
+    "submission_id": "CF211791226",
+    "submission_url": "https://codeforces.com/contest/598/submission/211791226",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Jul/02/2023 11:48"
+  },
   "CF211925775": {
     "contest_id": 186,
     "language": "GNU C++20 (64)",
