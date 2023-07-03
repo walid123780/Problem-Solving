@@ -4452,6 +4452,23 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF211925775": {
+    "contest_id": 186,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\186\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Growing Mushrooms",
+    "problem_url": "https://codeforces.com/contest/186/problem/B",
+    "submission_id": "CF211925775",
+    "submission_url": "https://codeforces.com/contest/186/submission/211925775",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jul/03/2023 15:33"
+  },
   "CF211985688": {
     "contest_id": 387,
     "language": "GNU C++20 (64)",
