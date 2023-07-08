@@ -25,7 +25,7 @@ int main() {
 			}
 			sort(v.begin(), v.end());
 			ll x = h , penalty = 0 , solved = 0 , sum = 0;
-			for(int k = 0; (x - v[k]) >= 0 and k < m ; k++) {
+			for(int k = 0; k < m and (x - v[k]) >= 0 ; k++) {
 				x -= v[k];
 				sum += v[k];
 				penalty += sum; 
