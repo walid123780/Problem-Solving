@@ -4452,6 +4452,23 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF213928896": {
+    "contest_id": 1338,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1338\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Powered Addition",
+    "problem_url": "https://codeforces.com/contest/1338/problem/A",
+    "submission_id": "CF213928896",
+    "submission_url": "https://codeforces.com/contest/1338/submission/213928896",
+    "tags": [
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Jul/15/2023 21:46"
+  },
   "CF213929103": {
     "contest_id": 1845,
     "language": "GNU C++20 (64)",
