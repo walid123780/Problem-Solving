@@ -11,9 +11,6 @@ lll fun (vector<int> const &a , int w) {
 	}
 	return ans;
 }
-// I am getting long long overflow in Contest time !!   
-// __int128 actually long long^2 capacity. But we can not use it for input/output(just can store value).
-// __int128 support GNU 18 and upper versions.  
 int main()
 {
 	int t = 1;
