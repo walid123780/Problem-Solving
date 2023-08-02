@@ -4452,6 +4452,23 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF216893301": {
+    "contest_id": 735,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\735\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Taxes",
+    "problem_url": "https://codeforces.com/contest/735/problem/D",
+    "submission_id": "CF216893301",
+    "submission_url": "https://codeforces.com/contest/735/submission/216893301",
+    "tags": [
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Aug/03/2023 00:34"
+  },
   "CF217068401": {
     "contest_id": 1604,
     "language": "GNU C++20 (64)",
