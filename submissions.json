@@ -1,4 +1,20 @@
 {
+  "AC44597919": {
+    "contest_id": "abc147",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc147\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Xor Sum 4",
+    "problem_url": "https://atcoder.jp/contests/abc147/tasks/abc147_d",
+    "submission_id": "AC44597919",
+    "submission_url": "https://atcoder.jp/contests/abc147/submissions/44597919",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/15/2023 00:18"
+  },
   "AC45359651": {
     "contest_id": "abc319",
     "language": "C++ 20 (gcc 12.2)",
