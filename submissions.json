@@ -4452,6 +4452,23 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF219872642": {
+    "contest_id": 1857,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1857\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Array Coloring",
+    "problem_url": "https://codeforces.com/contest/1857/problem/A",
+    "submission_id": "CF219872642",
+    "submission_url": "https://codeforces.com/contest/1857/submission/219872642",
+    "tags": [
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Aug/22/2023 12:22"
+  },
   "CF219877932": {
     "contest_id": 1857,
     "language": "GNU C++20 (64)",
