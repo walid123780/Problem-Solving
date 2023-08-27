@@ -4452,6 +4452,25 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF220665637": {
+    "contest_id": 1864,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1864\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Divisor Chain",
+    "problem_url": "https://codeforces.com/contest/1864/problem/C",
+    "submission_id": "CF220665637",
+    "submission_url": "https://codeforces.com/contest/1864/submission/220665637",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Aug/27/2023 15:14"
+  },
   "CF220762369": {
     "contest_id": 1514,
     "language": "GNU C++20 (64)",
