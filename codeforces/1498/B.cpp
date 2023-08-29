@@ -1,34 +1,50 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
-    int n , k;
-    cin >> n >> k;
-    multiset<int> s;
-    for(int i = 0; i < n; i++) {
-    	int x;
-    	cin >> x;
-    	s.insert(x);
-    }
-    int res = 0;
-    while(!s.empty()) {
-    	int h = k;
-    	while(*s.begin() <= h) {
-    		int z = *(--s.upper_bound(h));
-    		h -= z;
-    		s.erase(s.find(z));
-    		if(s.empty()) break;
-    	}
-    	res++;
-    }
-    cout << res << endl;
+int logg(int x) {
+	int cnt = -1;
+	while(x){
+		x /= 2;
+		cnt++;
+	}
+	return cnt;
 }
+void solve() {
+	int n , k;
+	cin >> n >> k;
+	int mp[30] = {};
+	for(int i = 0; i < n; i++) {
+		int x;
+		cin >> x;
+		mp[logg(x)]++;
+	}
+	int ans = 0;
+	for(int i = 0; ; i++) {
+		int g = k;
+		for(int j = 25; j >= 0; j--) {
+			int power = 1 << j;
+			while(g >= power and mp[j] > 0) {
+				g = g - power;
+				mp[j]--;
+			}
+		}
+		ans += 1;
+		int complete = 1;
+		for(int k = 0; k < 26; k++) {
+			if(mp[k]) complete = 0;
+		}
+		if(complete) break;
+	}
+	cout << ans << endl;
+}
+
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int tc;
-    cin >> tc;
-    while (tc--) {
-        solve();
-    }
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);
+	int tc = 1;
+	cin >> tc;
+	while (tc--) {
+		solve();
+	}
+	return 0;
 }
