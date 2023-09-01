@@ -4452,6 +4452,24 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF221467751": {
+    "contest_id": 1863,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1863\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Split Sort",
+    "problem_url": "https://codeforces.com/contest/1863/problem/B",
+    "submission_id": "CF221467751",
+    "submission_url": "https://codeforces.com/contest/1863/submission/221467751",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Sep/01/2023 21:49"
+  },
   "CF221528646": {
     "contest_id": 1863,
     "language": "GNU C++20 (64)",
