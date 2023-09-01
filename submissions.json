@@ -4452,6 +4452,26 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF221458226": {
+    "contest_id": 1861,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1861\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Queries for the Array",
+    "problem_url": "https://codeforces.com/contest/1861/problem/C",
+    "submission_id": "CF221458226",
+    "submission_url": "https://codeforces.com/contest/1861/submission/221458226",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "implementation",
+      "strings",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "Sep/01/2023 20:28"
+  },
   "CF221467751": {
     "contest_id": 1863,
     "language": "GNU C++20 (64)",
