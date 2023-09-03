@@ -4452,6 +4452,22 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF221674480": {
+    "contest_id": 1866,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1866\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Ambitious Kid",
+    "problem_url": "https://codeforces.com/contest/1866/problem/A",
+    "submission_id": "CF221674480",
+    "submission_url": "https://codeforces.com/contest/1866/submission/221674480",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Sep/03/2023 18:08"
+  },
   "CF221729031": {
     "contest_id": 1866,
     "language": "GNU C++20 (64)",
