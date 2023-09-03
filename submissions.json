@@ -4452,6 +4452,24 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF221729031": {
+    "contest_id": 1866,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1866\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Battling with Numbers",
+    "problem_url": "https://codeforces.com/contest/1866/problem/B",
+    "submission_id": "CF221729031",
+    "submission_url": "https://codeforces.com/contest/1866/submission/221729031",
+    "tags": [
+      "combinatorics",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "Sep/03/2023 23:25"
+  },
   "CF222406336": {
     "contest_id": 1872,
     "language": "GNU C++20 (64)",
