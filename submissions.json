@@ -4452,6 +4452,22 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF222406336": {
+    "contest_id": 1872,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1872\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Plus Minus Permutation",
+    "problem_url": "https://codeforces.com/contest/1872/problem/D",
+    "submission_id": "CF222406336",
+    "submission_url": "https://codeforces.com/contest/1872/submission/222406336",
+    "tags": [
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Sep/08/2023 12:42"
+  },
   "CF222554449": {
     "contest_id": 1872,
     "language": "GNU C++20 (64)",
