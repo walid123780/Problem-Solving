@@ -1,4 +1,20 @@
 {
+  "AC45721510": {
+    "contest_id": "abc320",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc320\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Longest Palindrome",
+    "problem_url": "https://atcoder.jp/contests/abc320/tasks/abc320_b",
+    "submission_id": "AC45721510",
+    "submission_url": "https://atcoder.jp/contests/abc320/submissions/45721510",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/19/2023 11:04"
+  },
   "AC45730611": {
     "contest_id": "abc320",
     "language": "C++ 20 (gcc 12.2)",
