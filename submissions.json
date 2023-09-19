@@ -1,4 +1,20 @@
 {
+  "AC45721008": {
+    "contest_id": "abc320",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc320\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Leyland Number",
+    "problem_url": "https://atcoder.jp/contests/abc320/tasks/abc320_a",
+    "submission_id": "AC45721008",
+    "submission_url": "https://atcoder.jp/contests/abc320/submissions/45721008",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Sep/19/2023 10:32"
+  },
   "AC45721510": {
     "contest_id": "abc320",
     "language": "C++ 20 (gcc 12.2)",
