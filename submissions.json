@@ -1,4 +1,20 @@
 {
+  "AC45814078": {
+    "contest_id": "abc318",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc318\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Full Moon",
+    "problem_url": "https://atcoder.jp/contests/abc318/tasks/abc318_a",
+    "submission_id": "AC45814078",
+    "submission_url": "https://atcoder.jp/contests/abc318/submissions/45814078",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Sep/23/2023 16:01"
+  },
   "AC45814838": {
     "contest_id": "abc318",
     "language": "C++ 20 (gcc 12.2)",
