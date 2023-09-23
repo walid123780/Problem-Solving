@@ -1,4 +1,20 @@
 {
+  "AC45814838": {
+    "contest_id": "abc318",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc318\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Overlapping sheets",
+    "problem_url": "https://atcoder.jp/contests/abc318/tasks/abc318_b",
+    "submission_id": "AC45814838",
+    "submission_url": "https://atcoder.jp/contests/abc318/submissions/45814838",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/23/2023 16:43"
+  },
   "AC45825298": {
     "contest_id": "abc321",
     "language": "C++ 20 (gcc 12.2)",
