@@ -4452,6 +4452,25 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF225471561": {
+    "contest_id": 1878,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1878\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Iva & Pav",
+    "problem_url": "https://codeforces.com/contest/1878/problem/E",
+    "submission_id": "CF225471561",
+    "submission_url": "https://codeforces.com/contest/1878/submission/225471561",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "data structures",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Sep/27/2023 13:34"
+  },
   "CF225552872": {
     "contest_id": 1873,
     "language": "GNU C++20 (64)",
