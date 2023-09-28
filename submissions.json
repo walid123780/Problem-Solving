@@ -1,4 +1,20 @@
 {
+  "AC46017401": {
+    "contest_id": "abc321",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc321\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "321-like Searcher",
+    "problem_url": "https://atcoder.jp/contests/abc321/tasks/abc321_c",
+    "submission_id": "AC46017401",
+    "submission_url": "https://atcoder.jp/contests/abc321/submissions/46017401",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Sep/28/2023 22:26"
+  },
   "AC46026821": {
     "contest_id": "abc321",
     "language": "C++ 20 (gcc 12.2)",
