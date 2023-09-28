@@ -1,4 +1,20 @@
 {
+  "AC46012028": {
+    "contest_id": "abc321",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc321\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Cutoff",
+    "problem_url": "https://atcoder.jp/contests/abc321/tasks/abc321_b",
+    "submission_id": "AC46012028",
+    "submission_url": "https://atcoder.jp/contests/abc321/submissions/46012028",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Sep/28/2023 18:40"
+  },
   "AC46017401": {
     "contest_id": "abc321",
     "language": "C++ 20 (gcc 12.2)",
