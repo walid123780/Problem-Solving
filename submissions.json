@@ -4452,6 +4452,24 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF232145302": {
+    "contest_id": 1891,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1891\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Deja Vu",
+    "problem_url": "https://codeforces.com/contest/1891/problem/B",
+    "submission_id": "CF232145302",
+    "submission_url": "https://codeforces.com/contest/1891/submission/232145302",
+    "tags": [
+      "brute force",
+      "math",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Nov/10/2023 00:52"
+  },
   "CF232267476": {
     "contest_id": 1891,
     "language": "GNU C++20 (64)",
