@@ -9,14 +9,24 @@ int main() {
   while(t--) {
     int n;
     cin >> n;
+    std::vector<int> v(n);
+    set<int> s;
     map<int, int> mp;
     for(int i = 0; i < n; i++) {
-      int x; cin >> x;
-      mp[x] ++;
+      cin >> v[i];
+      mp[v[i]] ++;
+      s.insert(v[i]);
     }
-    if(mp.size() > 2) cout << "No\n";
-    else if(abs(mp.begin()->second - mp.rbegin()->second) <= 1) {
-      cout << "Yes" << endl; 
+    if(s.size() == 1) cout << "Yes\n";
+    else if(s.size() == 2) {
+      int diff = 0;
+      for(auto it : s) {
+        diff = abs(diff - mp[it]);
+      }
+      if(diff == 1 or diff == 0) {
+        cout << "Yes\n";
+      }
+      else cout << "No\n";
     }
     else cout << "No\n";
   } 
