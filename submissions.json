@@ -4452,6 +4452,23 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF232758709": {
+    "contest_id": 1883,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1883\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Raspberries",
+    "problem_url": "https://codeforces.com/contest/1883/problem/C",
+    "submission_id": "CF232758709",
+    "submission_url": "https://codeforces.com/contest/1883/submission/232758709",
+    "tags": [
+      "dp",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Nov/14/2023 19:44"
+  },
   "CF232815233": {
     "contest_id": 1888,
     "language": "GNU C++20 (64)",
