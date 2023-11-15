@@ -4452,6 +4452,25 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF232845018": {
+    "contest_id": 1882,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1882\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sets and Union",
+    "problem_url": "https://codeforces.com/contest/1882/problem/B",
+    "submission_id": "CF232845018",
+    "submission_url": "https://codeforces.com/contest/1882/submission/232845018",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Nov/15/2023 16:57"
+  },
   "CF233105109": {
     "contest_id": 1899,
     "language": "GNU C++20 (64)",
