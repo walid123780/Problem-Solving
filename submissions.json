@@ -4452,6 +4452,23 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF232837439": {
+    "contest_id": 1888,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1888\\D1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D1",
+    "problem_name": "Dances (Easy version)",
+    "problem_url": "https://codeforces.com/contest/1888/problem/D1",
+    "submission_id": "CF232837439",
+    "submission_url": "https://codeforces.com/contest/1888/submission/232837439",
+    "tags": [
+      "binary search",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Nov/15/2023 15:32"
+  },
   "CF232845018": {
     "contest_id": 1882,
     "language": "GNU C++20 (64)",
