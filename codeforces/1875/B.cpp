@@ -7,32 +7,44 @@ int main() {
   int t = 1;
   cin >> t;
   while(t--) {
-    int n, m , k;
+    int n, m, k;
     cin >> n >> m >> k;
     std::vector<int> a(n), b(m);
-    for(int i = 0; i < n; i++) {
-      cin >> a[i];
-    }
-    for(int i = 0; i < m; i++) {
-       cin >> b[i];
-    }
-    sort(a.begin(), a.end());
-    sort(b.begin(), b.end());
-    if(a[0] < b[m - 1]) {
-      swap(a[0], b[m - 1]);
-    }
-    sort(a.begin(), a.end());
-    sort(b.begin(), b.end());
-    if(k % 2 == 0) {
-      if(b[0] < a[n - 1]) {
-        swap(b[0], a[n - 1]);
-      }
-    }
     long long ans = 0;
     for(int i = 0; i < n; i++) {
-      ans += a[i];
+      cin >> a[i]; ans += a[i];
     }
-    cout << ans << endl;
-  } 
+    for(int i = 0; i < m; i++) {
+      cin >> b[i];
+    }
+    sort(a.begin(), a.end()), 
+    sort(b.begin(), b.end());
+
+    int a_mx = a[n - 1];
+    int a_mn = a[0];
+
+    int b_mx = b[m - 1];
+    int b_mn = b[0];
+
+    if(k % 2) {
+      if(a_mn < b_mx) {
+        ans -= a_mn;
+        ans += b_mx;
+      }
+    }
+    else if(!(k % 2)){
+      if(a_mn < b_mx) {
+        ans -= a_mn;
+        ans += b_mx;
+        ans += min(a_mn, b_mn); 
+        ans -= max(a_mx, b_mx);
+      }
+      else {
+        ans -= a_mx;
+        ans += b_mn;
+      }
+    }
+    cout << ans << endl; 
+  }
   return 0;
 }
