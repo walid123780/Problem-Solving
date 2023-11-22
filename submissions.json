@@ -4452,6 +4452,23 @@
     ],
     "timestamp": "Jun/20/2023 21:14"
   },
+  "CF233765502": {
+    "contest_id": 1881,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1881\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Divide and Equalize",
+    "problem_url": "https://codeforces.com/contest/1881/problem/D",
+    "submission_id": "CF233765502",
+    "submission_url": "https://codeforces.com/contest/1881/submission/233765502",
+    "tags": [
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Nov/22/2023 11:47"
+  },
   "CF233833715": {
     "contest_id": 1881,
     "language": "GNU C++20 (64)",
