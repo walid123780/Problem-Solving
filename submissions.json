@@ -1,4 +1,22 @@
 {
+  "CF234621258": {
+    "contest_id": 1900,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1900\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Anji's Binary Tree",
+    "problem_url": "https://codeforces.com/contest/1900/problem/C",
+    "submission_id": "CF234621258",
+    "submission_url": "https://codeforces.com/contest/1900/submission/234621258",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "trees",
+      "*1300"
+    ],
+    "timestamp": "Nov/27/2023 23:20"
+  },
   "CF234622003": {
     "contest_id": 1637,
     "language": "GNU C++20 (64)",
