@@ -1,4 +1,20 @@
 {
+  "CF235540907": {
+    "contest_id": 1902,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1902\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Binary Imbalance",
+    "problem_url": "https://codeforces.com/contest/1902/problem/A",
+    "submission_id": "CF235540907",
+    "submission_url": "https://codeforces.com/contest/1902/submission/235540907",
+    "tags": [
+      "constructive algorithms",
+      "*800"
+    ],
+    "timestamp": "Dec/03/2023 20:41"
+  },
   "CF235654134": {
     "contest_id": 1902,
     "language": "GNU C++20 (64)",
