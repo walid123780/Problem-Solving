@@ -1,4 +1,22 @@
 {
+  "CF235654134": {
+    "contest_id": 1902,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1902\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Getting Points",
+    "problem_url": "https://codeforces.com/contest/1902/problem/B",
+    "submission_id": "CF235654134",
+    "submission_url": "https://codeforces.com/contest/1902/submission/235654134",
+    "tags": [
+      "binary search",
+      "brute force",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Dec/04/2023 10:13"
+  },
   "CF235664686": {
     "contest_id": 1902,
     "language": "GNU C++20 (64)",
