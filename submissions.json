@@ -1,4 +1,20 @@
 {
+  "CF235735988": {
+    "contest_id": 1855,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1855\\C1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C1",
+    "problem_name": "Dual (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1855/problem/C1",
+    "submission_id": "CF235735988",
+    "submission_url": "https://codeforces.com/contest/1855/submission/235735988",
+    "tags": [
+      "constructive algorithms",
+      "*1400"
+    ],
+    "timestamp": "Dec/04/2023 21:22"
+  },
   "CF235741098": {
     "contest_id": 1862,
     "language": "GNU C++20 (64)",
