@@ -1,4 +1,23 @@
 {
+  "CF235802061": {
+    "contest_id": 1862,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1862\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Flower City Fence",
+    "problem_url": "https://codeforces.com/contest/1862/problem/C",
+    "submission_id": "CF235802061",
+    "submission_url": "https://codeforces.com/contest/1862/submission/235802061",
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Dec/05/2023 12:38"
+  },
   "CF236019156": {
     "contest_id": 1839,
     "language": "GNU C++20 (64)",
