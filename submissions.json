@@ -1,4 +1,23 @@
 {
+  "CF236261217": {
+    "contest_id": 1907,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1907\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Removal of Unattractive Pairs",
+    "problem_url": "https://codeforces.com/contest/1907/problem/C",
+    "submission_id": "CF236261217",
+    "submission_url": "https://codeforces.com/contest/1907/submission/236261217",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "strings",
+      "*1200"
+    ],
+    "timestamp": "Dec/08/2023 01:52"
+  },
   "CF236292350": {
     "contest_id": 1907,
     "language": "GNU C++20 (64)",
