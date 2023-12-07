@@ -32,14 +32,14 @@ int main() {
      range_sum += (s[j - 1] - '0');
      int need_sum = cur - (2 * range_sum);
      int need_range = s.size() - (2 * j);
-     if(need_range > 0) ans += mp[need_range][need_sum];
+     if(need_range > 0 and need_sum > 0) ans += mp[need_range][need_sum];
    }
    range_sum = 0;
    for(int j = s.size() - 1; j > 0; j--) {
      range_sum += (s[j] - '0');
      int need_sum = cur - (2 * range_sum);
      int need_range = s.size() - 2 *(s.size() - j);
-     if(need_range > 0 ) ans += mp[need_range][need_sum];
+     if(need_range > 0 and need_sum > 0) ans += mp[need_range][need_sum];
     } 
   }
   cout << ans << endl;
