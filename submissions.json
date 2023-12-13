@@ -1,4 +1,20 @@
 {
+  "CF237063336": {
+    "contest_id": 1856,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1856\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Tales of a Sort",
+    "problem_url": "https://codeforces.com/contest/1856/problem/A",
+    "submission_id": "CF237063336",
+    "submission_url": "https://codeforces.com/contest/1856/submission/237063336",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/13/2023 21:11"
+  },
   "CF237066346": {
     "contest_id": 1856,
     "language": "GNU C++20 (64)",
