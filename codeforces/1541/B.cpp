@@ -18,7 +18,8 @@ int main() {
     }
     ll ans = 0; 
     for(ll i = 1; i <= 2 * n; i++) {
-      for(ll j = i + 1; (i * j) <= 2 * n; j++) {
+      for(ll j = i + 1; j <= 2 * n; j++) {
+        if(i * j > 2 * n) break;
         if(mp[i] == -1 || mp[j] == -1) continue;
         if(i * j == mp[i] + mp[j]) {
           ans++;
