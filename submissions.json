@@ -1,4 +1,20 @@
 {
+  "CF242083430": {
+    "contest_id": 1680,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1680\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Robots",
+    "problem_url": "https://codeforces.com/contest/1680/problem/B",
+    "submission_id": "CF242083430",
+    "submission_url": "https://codeforces.com/contest/1680/submission/242083430",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jan/17/2024 19:45"
+  },
   "CF242113667": {
     "contest_id": 1399,
     "language": "GNU C++20 (64)",
