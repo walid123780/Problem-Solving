@@ -1,4 +1,20 @@
 {
+  "AC50067563": {
+    "contest_id": "abc339",
+    "language": "C++ 20 (gcc 12.2)",
+    "path": "atcoder\\abc339\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Perfect Bus",
+    "problem_url": "https://atcoder.jp/contests/abc339/tasks/abc339_c",
+    "submission_id": "AC50067563",
+    "submission_url": "https://atcoder.jp/contests/abc339/submissions/50067563",
+    "tags": [
+      "AtCoder",
+      "*250"
+    ],
+    "timestamp": "Feb/07/2024 00:35"
+  },
   "CF145087372": {
     "contest_id": 1622,
     "language": "GNU C++17",
