@@ -13,11 +13,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-668 | [D - Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | [GNU C++20 (64)](./codeforces/1927/D.cpp) | `binary search` `brute force` `data structures` `dp` `dsu` `greedy` `two pointers` | Feb/13/2024 12:23 | 
-667 | [C - Mocha and Hiking](https://codeforces.com/contest/1559/problem/C) | [GNU C++17](./codeforces/1559/C.cpp) | `constructive algorithms` `graphs` `*1200` | Feb/12/2024 17:17 | 
-666 | [B - Equalize](https://codeforces.com/contest/1928/problem/B) | [GNU C++17](./codeforces/1928/B.cpp) | `binary search` `greedy` `sortings` `two pointers` | Feb/11/2024 16:53 | 
-665 | [A - Rectangle Cutting](https://codeforces.com/contest/1928/problem/A) | [GNU C++17](./codeforces/1928/A.cpp) | `geometry` `greedy` `math` | Feb/11/2024 16:00 | 
-664 | [B - Moamen and k-subarrays](https://codeforces.com/contest/1557/problem/B) | [GNU C++17](./codeforces/1557/B.cpp) | `greedy` `sortings` `*1100` | Feb/09/2024 20:53 | 
+669 | [D - Find the Different Ones!](https://codeforces.com/contest/1927/problem/D) | [GNU C++20 (64)](./codeforces/1927/D.cpp) | `binary search` `brute force` `data structures` `dp` `dsu` `greedy` `two pointers` | Feb/13/2024 12:23 | 
+668 | [C - Mocha and Hiking](https://codeforces.com/contest/1559/problem/C) | [GNU C++17](./codeforces/1559/C.cpp) | `constructive algorithms` `graphs` `*1200` | Feb/12/2024 17:17 | 
+667 | [B - Equalize](https://codeforces.com/contest/1928/problem/B) | [GNU C++17](./codeforces/1928/B.cpp) | `binary search` `greedy` `sortings` `two pointers` | Feb/11/2024 16:53 | 
+666 | [A - Rectangle Cutting](https://codeforces.com/contest/1928/problem/A) | [GNU C++17](./codeforces/1928/A.cpp) | `geometry` `greedy` `math` | Feb/11/2024 16:00 | 
+665 | [B - Moamen and k-subarrays](https://codeforces.com/contest/1557/problem/B) | [GNU C++17](./codeforces/1557/B.cpp) | `greedy` `sortings` `*1100` | Feb/09/2024 20:53 | 
+664 | [A - Regular Bracket Sequence](https://codeforces.com/contest/1469/problem/A) | [GNU C++17](./codeforces/1469/A.cpp) | `constructive algorithms` `greedy` `*1000` | Feb/08/2024 15:20 | 
 663 | [C - Perfect Bus](https://atcoder.jp/contests/abc339/tasks/abc339_c) | [C++ 20 (gcc 12.2)](./atcoder/abc339/C.cpp) | `AtCoder` `*250` | Feb/07/2024 00:35 | 
 662 | [C - Make It Good](https://codeforces.com/contest/1385/problem/C) | [GNU C++17](./codeforces/1385/C.cpp) | `greedy` `*1200` | Feb/06/2024 00:39 | 
 661 | [B - Divisor Subtraction](https://codeforces.com/contest/1076/problem/B) | [GNU C++20 (64)](./codeforces/1076/B.cpp) | `implementation` `math` `number theory` `*1200` | Jan/19/2024 23:23 | 
