@@ -12673,6 +12673,23 @@
     ],
     "timestamp": "Feb/06/2024 00:39"
   },
+  "CF245813306": {
+    "contest_id": 1928,
+    "language": "GNU C++17",
+    "path": "codeforces\\1928\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rectangle Cutting",
+    "problem_url": "https://codeforces.com/contest/1928/problem/A",
+    "submission_id": "CF245813306",
+    "submission_url": "https://codeforces.com/contest/1928/submission/245813306",
+    "tags": [
+      "geometry",
+      "greedy",
+      "math"
+    ],
+    "timestamp": "Feb/11/2024 16:00"
+  },
   "CF245835728": {
     "contest_id": 1928,
     "language": "GNU C++17",
