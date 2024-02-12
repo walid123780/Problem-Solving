@@ -18,13 +18,13 @@ struct ST {
     int mid = (b + e) >> 1, l = n << 1, r = l | 1;
     build(l, b, mid);
     build(r, mid + 1, e);
-    tree_mx[n] = max(tree_mx[l], tree_mx[r]);
+    tree_mx[n] = max(tree_mx[l], tree_mx[r]); // change this
   }
   int query(int n, int b, int e, int i, int j) {
-    if (b > j || e < i) return -inf;
+    if (b > j || e < i) return -inf; // return appropriate value
     if (b >= i && e <= j) return tree_mx[n];
     int mid = (b + e) >> 1, l = n << 1, r = l | 1;
-    return max(query(l, b, mid, i, j), query(r, mid + 1, e, i, j));
+    return max(query(l, b, mid, i, j), query(r, mid + 1, e, i, j)); // change this
   }
 }tree_mx;
 
@@ -42,15 +42,17 @@ struct ST1 {
     int mid = (b + e) >> 1, l = n << 1, r = l | 1;
     build(l, b, mid);
     build(r, mid + 1, e);
-    tree_mn[n] = min(tree_mn[l], tree_mn[r]); 
+    tree_mn[n] = min(tree_mn[l], tree_mn[r]); // change this
   }
   int query(int n, int b, int e, int i, int j) {
-    if (b > j || e < i) return inf; 
+    if (b > j || e < i) return inf; // return appropriate value
     if (b >= i && e <= j) return tree_mn[n];
     int mid = (b + e) >> 1, l = n << 1, r = l | 1;
-    return min(query(l, b, mid, i, j), query(r, mid + 1, e, i, j));
+    return min(query(l, b, mid, i, j), query(r, mid + 1, e, i, j)); // change this
   }
 }tree_mn;
+
+
 
 int main() {
   ios_base::sync_with_stdio(0);
@@ -60,6 +62,7 @@ int main() {
     while(t--) {
      int n;
      cin >> n;
+     
      for(int i = 1; i <= n; i++) {
        cin >> a[i];
      }
