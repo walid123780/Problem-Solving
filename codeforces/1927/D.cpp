@@ -5,14 +5,14 @@ const int N = 2e5 + 9, LIMIT = 1e6 + 9;
 int a[N];
 std::vector<int> pos[LIMIT];
 struct ST {
-  pair<int, int> tree_mx[4 * N];
+  int tree_mx[4 * N];
   static const int inf = 1e9;
   ST() {
     memset(tree_mx, 0, sizeof tree_mx);
   }
   void build(int n, int b, int e) {
     if (b == e) {
-      tree_mx[n] = make_pair(a[b], b);
+      tree_mx[n] = a[b];
       return;
     }
     int mid = (b + e) >> 1, l = n << 1, r = l | 1;
@@ -20,23 +20,23 @@ struct ST {
     build(r, mid + 1, e);
     tree_mx[n] = max(tree_mx[l], tree_mx[r]);
   }
-  pair<int, int> query(int n, int b, int e, int i, int j) {
-    if (b > j || e < i) return {-inf, -inf};
+  int query(int n, int b, int e, int i, int j) {
+    if (b > j || e < i) return -inf;
     if (b >= i && e <= j) return tree_mx[n];
     int mid = (b + e) >> 1, l = n << 1, r = l | 1;
     return max(query(l, b, mid, i, j), query(r, mid + 1, e, i, j));
   }
 }tree_mx;
 
-struct STAR {
-  pair<int, int> tree_mn[4 * N];
+struct ST1 {
+  int tree_mn[4 * N];
   static const int inf = 1e9;
-  STAR() {
+  ST1() {
     memset(tree_mn, 0, sizeof tree_mn);
   }
   void build(int n, int b, int e) {
     if (b == e) {
-      tree_mn[n] = make_pair(a[b], b);
+      tree_mn[n] = a[b];
       return;
     }
     int mid = (b + e) >> 1, l = n << 1, r = l | 1;
@@ -44,8 +44,8 @@ struct STAR {
     build(r, mid + 1, e);
     tree_mn[n] = min(tree_mn[l], tree_mn[r]); 
   }
-  pair<int, int> query(int n, int b, int e, int i, int j) {
-    if (b > j || e < i) return {inf, inf}; 
+  int query(int n, int b, int e, int i, int j) {
+    if (b > j || e < i) return inf; 
     if (b >= i && e <= j) return tree_mn[n];
     int mid = (b + e) >> 1, l = n << 1, r = l | 1;
     return min(query(l, b, mid, i, j), query(r, mid + 1, e, i, j));
@@ -63,6 +63,12 @@ int main() {
      for(int i = 1; i <= n; i++) {
        cin >> a[i];
      }
+     for(int i = 1; i <= n; i++) {
+       pos[a[i]].clear();
+     }
+     for(int i = 1; i <= n; i++) {
+       pos[a[i]].push_back(i);
+     }
      tree_mn.build(1, 1, n);
      tree_mx.build(1, 1, n);
      int query;
@@ -70,17 +76,21 @@ int main() {
      while(query--) {
       int l, r;
       cin >> l >> r;
-      pair<int, int> mn = tree_mn.query(1, 1, n, l, r);
-      pair<int, int> mx = tree_mx.query(1, 1, n, l, r);
+      int mn = tree_mn.query(1, 1, n, l, r);
+      int mx = tree_mx.query(1, 1, n, l, r);
      
-      if(mn.first == mx.first) {
+      if(mn == mx) {
         cout << -1 << " " << -1 << endl;
       }
       else {
-        cout << mn.second << " " << mx.second << endl;
+        int i = lower_bound(pos[mn].begin(), pos[mn].end(), l) - pos[mn].begin();
+        int j = lower_bound(pos[mx].begin(), pos[mx].end(), l) - pos[mx].begin();
+        cout << pos[mn][i] << " " << pos[mx][j] << endl;
       }
      }
      cout << "\n";
    }
   return 0;
 }
+
+
