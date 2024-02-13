@@ -1,8 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int N = 2e5 + 9;
+const int N = 2e5 + 9, LIMIT = 1e6 + 9;
 int a[N];
+std::vector<int> pos[LIMIT];
 struct ST {
   pair<int, int> tree_mx[4 * N];
   static const int inf = 1e9;

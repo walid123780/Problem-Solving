@@ -12673,6 +12673,27 @@
     ],
     "timestamp": "Feb/06/2024 00:39"
   },
+  "CF246067006": {
+    "contest_id": 1927,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1927\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Find the Different Ones!",
+    "problem_url": "https://codeforces.com/contest/1927/problem/D",
+    "submission_id": "CF246067006",
+    "submission_url": "https://codeforces.com/contest/1927/submission/246067006",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "dp",
+      "dsu",
+      "greedy",
+      "two pointers"
+    ],
+    "timestamp": "Feb/13/2024 12:20"
+  },
   "CF246067228": {
     "contest_id": 1927,
     "language": "GNU C++20 (64)",
